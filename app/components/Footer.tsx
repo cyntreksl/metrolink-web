@@ -95,18 +95,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/mission" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
-                  Mission & Vision
-                </Link>
-              </li>
-              <li>
-                <Link href="/values" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
-                  Core Values
-                </Link>
-              </li>
-              <li>
-                <Link href="/leadership" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
-                  Leadership Team
+                <Link href="/services" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                  Services
                 </Link>
               </li>
               <li>
@@ -119,6 +109,11 @@ export default function Footer() {
                   Careers
                 </Link>
               </li>
+              <li>
+                <Link href="/contact" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -127,33 +122,33 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Services</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/services/sea-freight" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                <Link href="/services" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                  All Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/services#sea-freight" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
                   Sea Freight
                 </Link>
               </li>
               <li>
-                <Link href="/services/air-freight" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                <Link href="/services#air-freight" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
                   Air Freight
                 </Link>
               </li>
               <li>
-                <Link href="/services/land-transport" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                <Link href="/services#land-transport" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
                   Land Transport
                 </Link>
               </li>
               <li>
-                <Link href="/services/customs-clearance" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                <Link href="/services#customs-clearance" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
                   Customs Clearance
                 </Link>
               </li>
               <li>
-                <Link href="/services/warehousing" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
+                <Link href="/services#warehousing" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
                   Warehousing
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/project-cargo" className="text-gray-400 hover:text-[#F16D34] transition-colors text-sm md:text-base">
-                  Project Cargo
                 </Link>
               </li>
             </ul>

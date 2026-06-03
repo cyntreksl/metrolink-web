@@ -5,7 +5,6 @@ import { useState } from 'react';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
 
   return (
     <header className="bg-[#161E54] text-white">
@@ -59,14 +58,9 @@ export default function Header() {
             <Link href="/" className="hover:text-[#F16D34] transition-colors">
               Home
             </Link>
-            <div className="relative group">
-              <button className="hover:text-[#F16D34] transition-colors flex items-center gap-1">
-                About Us
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-            </div>
+            <Link href="/about" className="hover:text-[#F16D34] transition-colors">
+              About
+            </Link>
             <Link href="/services" className="hover:text-[#F16D34] transition-colors">
               Services
             </Link>
@@ -119,48 +113,13 @@ export default function Header() {
                 Home
               </Link>
               
-              {/* Mobile About Us Dropdown */}
-              <div>
-                <button 
-                  onClick={() => setAboutDropdownOpen(!aboutDropdownOpen)}
-                  className="hover:text-[#F16D34] transition-colors flex items-center justify-between w-full py-2"
-                >
-                  About Us
-                  <svg 
-                    className={`w-4 h-4 transition-transform ${aboutDropdownOpen ? 'rotate-180' : ''}`} 
-                    fill="none" 
-                    stroke="currentColor" 
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
-                {aboutDropdownOpen && (
-                  <div className="ml-4 mt-2 space-y-2">
-                    <Link 
-                      href="/about" 
-                      className="block py-2 text-gray-300 hover:text-[#F16D34]"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      About Us
-                    </Link>
-                    <Link 
-                      href="/mission" 
-                      className="block py-2 text-gray-300 hover:text-[#F16D34]"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Mission & Vision
-                    </Link>
-                    <Link 
-                      href="/values" 
-                      className="block py-2 text-gray-300 hover:text-[#F16D34]"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      Core Values
-                    </Link>
-                  </div>
-                )}
-              </div>
+              <Link 
+                href="/about" 
+                className="hover:text-[#F16D34] transition-colors py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About
+              </Link>
 
               <Link 
                 href="/services" 
