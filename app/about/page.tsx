@@ -29,7 +29,7 @@ export default function AboutPage() {
 
             {/* Badge */}
             <div className="inline-block mb-6">
-              <span className="bg-[#F16D34]/20 border border-[#F16D34]/50 text-[#F16D34] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
+              <span className="bg-[#FF7F38]/20 border border-[#FF7F38]/50 text-[#FF7F38] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
                 About MetroLink
               </span>
             </div>
@@ -54,12 +54,12 @@ export default function AboutPage() {
             {/* Left Column - Content */}
             <div>
               {/* Eyebrow */}
-              <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+              <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
                 Our Story
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
                 A Legacy Built on Moving Things Forward
               </h2>
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
               <div className="space-y-3 mb-10">
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -86,7 +86,7 @@ export default function AboutPage() {
 
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
 
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
 
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -116,40 +116,40 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
                 <div className="text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#161E54]">20+</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">20+</div>
                   </div>
                   <div className="text-sm text-gray-600">Years in Business</div>
                 </div>
 
                 <div className="text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#161E54]">3</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">3</div>
                   </div>
                   <div className="text-sm text-gray-600">Offices Nationwide</div>
                 </div>
 
                 <div className="text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#161E54]">200+</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">200+</div>
                   </div>
                   <div className="text-sm text-gray-600">Team Members</div>
                 </div>
 
                 <div className="text-center md:text-left">
                   <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg className="w-6 h-6 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#161E54]">150+</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">150+</div>
                   </div>
                   <div className="text-sm text-gray-600">Global Destinations</div>
                 </div>
@@ -170,7 +170,7 @@ export default function AboutPage() {
               </div>
 
               {/* Floating Badge - Warehouse Size */}
-              <div className="absolute -bottom-6 -right-6 bg-[#F16D34] text-white px-8 py-6 rounded-2xl shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-[#FF7F38] text-white px-8 py-6 rounded-2xl shadow-xl">
                 <div className="text-4xl md:text-5xl font-bold mb-1">50K</div>
                 <div className="text-sm md:text-base opacity-90">sqm Warehouse</div>
               </div>
@@ -184,10 +184,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Our Purpose
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
               Mission, Vision & Strategy
             </h2>
           </div>
@@ -195,20 +195,20 @@ export default function AboutPage() {
           {/* Mission and Vision Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             {/* Mission Card */}
-            <div className="bg-gradient-to-br from-[#0A4F7E] to-[#161E54] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
+            <div className="bg-gradient-to-br from-[#0A4F7E] to-[#00426D] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
               {/* Decorative background pattern */}
               <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
               
               <div className="relative z-10">
                 {/* Icon */}
-                <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F16D34] rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-14 h-14 md:w-16 md:h-16 bg-[#FF7F38] rounded-2xl flex items-center justify-center mb-6">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                   </svg>
                 </div>
 
                 {/* Label */}
-                <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-3 text-sm">
+                <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-3 text-sm">
                   Our Mission
                 </p>
 
@@ -225,28 +225,28 @@ export default function AboutPage() {
                 {/* Key Points */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-sm md:text-base">Client-First Approach</span>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-sm md:text-base">Operational Excellence</span>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-sm md:text-base">Competitive Pricing</span>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span className="text-sm md:text-base">On-Time Delivery</span>
@@ -256,22 +256,22 @@ export default function AboutPage() {
             </div>
 
             {/* Vision Card */}
-            <div className="bg-white rounded-3xl p-8 md:p-10 border-2 border-gray-200 hover:border-[#F16D34]/30 transition-colors">
+            <div className="bg-white rounded-3xl p-8 md:p-10 border-2 border-gray-200 hover:border-[#FF7F38]/30 transition-colors">
               {/* Icon */}
-              <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F16D34]/10 rounded-2xl flex items-center justify-center mb-6">
-                <svg className="w-8 h-8 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 md:w-16 md:h-16 bg-[#FF7F38]/10 rounded-2xl flex items-center justify-center mb-6">
+                <svg className="w-8 h-8 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
               </div>
 
               {/* Label */}
-              <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-3 text-sm">
+              <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-3 text-sm">
                 Our Vision
               </p>
 
               {/* Title */}
-              <h3 className="text-2xl md:text-3xl font-bold text-[#161E54] mb-4">
+              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-4">
                 Saudi Arabia's Leading Logistics Company
               </h3>
 
@@ -283,28 +283,28 @@ export default function AboutPage() {
               {/* Key Points */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm md:text-base text-gray-700">Vision 2030 Aligned</span>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm md:text-base text-gray-700">Technology-Driven</span>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm md:text-base text-gray-700">Regional Market Leader</span>
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-[#F16D34] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-5 h-5 text-[#FF7F38] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-sm md:text-base text-gray-700">Sustainable Operations</span>
@@ -321,7 +321,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-[#161E54]">
+              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D]">
                 Strategic Goals 2026–2030
               </h3>
             </div>
@@ -329,29 +329,29 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Goal 01 */}
               <div>
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-4">01</div>
-                <h4 className="text-xl font-bold text-[#161E54] mb-3">Expand to 5 Saudi Cities</h4>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-4">01</div>
+                <h4 className="text-xl font-bold text-[#00426D] mb-3">Expand to 5 Saudi Cities</h4>
                 <p className="text-gray-600 text-sm md:text-base">Open new offices in Jubail, Yanbu, and Taif by 2028.</p>
               </div>
 
               {/* Goal 02 */}
               <div>
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-4">02</div>
-                <h4 className="text-xl font-bold text-[#161E54] mb-3">100% Digital Operations</h4>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-4">02</div>
+                <h4 className="text-xl font-bold text-[#00426D] mb-3">100% Digital Operations</h4>
                 <p className="text-gray-600 text-sm md:text-base">Full digitization of all freight documentation and tracking.</p>
               </div>
 
               {/* Goal 03 */}
               <div>
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-4">03</div>
-                <h4 className="text-xl font-bold text-[#161E54] mb-3">Green Logistics Fleet</h4>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-4">03</div>
+                <h4 className="text-xl font-bold text-[#00426D] mb-3">Green Logistics Fleet</h4>
                 <p className="text-gray-600 text-sm md:text-base">Transition 40% of land transport to electric/hybrid vehicles.</p>
               </div>
 
               {/* Goal 04 */}
               <div>
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-4">04</div>
-                <h4 className="text-xl font-bold text-[#161E54] mb-3">500K Annual Shipments</h4>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-4">04</div>
+                <h4 className="text-xl font-bold text-[#00426D] mb-3">500K Annual Shipments</h4>
                 <p className="text-gray-600 text-sm md:text-base">Scale from 60,000 to 500,000 shipments per year by 2030.</p>
               </div>
             </div>
@@ -366,12 +366,12 @@ export default function AboutPage() {
             {/* Left Column - Header and Image */}
             <div className="lg:col-span-4">
               {/* Eyebrow */}
-              <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+              <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
                 What Guides Us
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
                 Our Core Values
               </h2>
 
@@ -398,12 +398,12 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Value 1: Integrity */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Integrity
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -413,12 +413,12 @@ export default function AboutPage() {
 
                 {/* Value 2: Excellence */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Excellence
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -428,12 +428,12 @@ export default function AboutPage() {
 
                 {/* Value 3: Partnership */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Partnership
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -443,12 +443,12 @@ export default function AboutPage() {
 
                 {/* Value 4: Innovation */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Innovation
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -458,12 +458,12 @@ export default function AboutPage() {
 
                 {/* Value 5: Sustainability */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Sustainability
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -473,12 +473,12 @@ export default function AboutPage() {
 
                 {/* Value 6: Global Thinking */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Global Thinking
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -488,12 +488,12 @@ export default function AboutPage() {
 
                 {/* Value 7: Compliance */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Compliance
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -503,12 +503,12 @@ export default function AboutPage() {
 
                 {/* Value 8: People First */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
-                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#F16D34]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     People First
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -532,7 +532,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           {/* Section Header */}
           <div className="text-center mb-16 md:mb-20">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Our Journey
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
@@ -551,11 +551,11 @@ export default function AboutPage() {
                 {/* 2004 - Founded */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   {/* Timeline dot */}
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2004</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2004</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Founded in Dammam</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         MetroLink was established with a team of 15 logistics professionals focused on sea freight through King Abdul Aziz Port.
@@ -567,12 +567,12 @@ export default function AboutPage() {
 
                 {/* 2008 - Air Freight */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2008</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2008</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Air Freight Division</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Expanded into air freight operations through King Fahd International Airport, connecting Saudi Arabia to global markets.
@@ -583,11 +583,11 @@ export default function AboutPage() {
 
                 {/* 2012 - GCC Network */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2012</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2012</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">GCC Land Transport Network</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Launched cross-border land freight connecting KSA to UAE, Kuwait, Bahrain, Qatar, and Oman with a dedicated fleet.
@@ -599,12 +599,12 @@ export default function AboutPage() {
 
                 {/* 2016 - ISO Certification */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2016</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2016</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">ISO 9001:2015 Certification</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Achieved ISO certification and expanded the team to 150+ professionals, marking a decade of sustainable growth.
@@ -615,11 +615,11 @@ export default function AboutPage() {
 
                 {/* 2019 - Logistics Complex */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2019</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2019</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Logistics Complex Opening</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Inaugurated a 50,000 sqm state-of-the-art warehouse and logistics center in Dammam's Logistics Zone.
@@ -631,12 +631,12 @@ export default function AboutPage() {
 
                 {/* 2022 - Vision 2030 */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2022</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2022</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Vision 2030 Partnership</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Signed a strategic partnership with the National Logistics Center (NLC) under Saudi Vision 2030 initiatives.
@@ -647,11 +647,11 @@ export default function AboutPage() {
 
                 {/* 2024 - Digital Transformation */}
                 <div className="relative flex items-start gap-8 md:gap-0">
-                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#F16D34] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
                   
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                      <span className="text-[#F16D34] font-bold text-lg md:text-xl mb-2 block">2024</span>
+                      <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2024</span>
                       <h3 className="text-xl md:text-2xl font-bold text-white mb-3">Digital Transformation</h3>
                       <p className="text-white/80 text-sm md:text-base">
                         Launched the MetroLink Client Portal — real-time tracking, e-documentation, and digital freight management.
@@ -671,10 +671,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Leadership Team
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
               The People Behind MetroLink
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -691,10 +691,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">K</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Khalid Al-Mutairi
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Chief Executive Officer
               </p>
               <p className="text-gray-500 text-sm">
@@ -709,10 +709,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">S</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Sara Al-Zahrani
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Chief Operations Officer
               </p>
               <p className="text-gray-500 text-sm">
@@ -723,14 +723,14 @@ export default function AboutPage() {
             {/* Leader 3 */}
             <div className="text-center group">
               <div className="mb-6 relative inline-block">
-                <div className="w-32 h-32 md:w-36 md:h-36 bg-[#F16D34] rounded-3xl flex items-center justify-center mx-auto group-hover:scale-105 transition-transform duration-300 shadow-lg">
+                <div className="w-32 h-32 md:w-36 md:h-36 bg-[#FF7F38] rounded-3xl flex items-center justify-center mx-auto group-hover:scale-105 transition-transform duration-300 shadow-lg">
                   <span className="text-5xl md:text-6xl font-bold text-white">O</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Omar Al-Dossary
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Head of Sea Freight
               </p>
               <p className="text-gray-500 text-sm">
@@ -745,10 +745,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">N</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Nadia Al-Hamdan
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Head of Air Freight
               </p>
               <p className="text-gray-500 text-sm">
@@ -763,10 +763,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">F</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Faisal Al-Otaibi
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Customs & Compliance
               </p>
               <p className="text-gray-500 text-sm">
@@ -781,10 +781,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">J</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 James Wilson
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Head of Project Cargo
               </p>
               <p className="text-gray-500 text-sm">
@@ -799,10 +799,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">R</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Reem Al-Ghamdi
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Head of Warehousing
               </p>
               <p className="text-gray-500 text-sm">
@@ -817,10 +817,10 @@ export default function AboutPage() {
                   <span className="text-5xl md:text-6xl font-bold text-white">A</span>
                 </div>
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
                 Ali Al-Shehri
               </h3>
-              <p className="text-[#F16D34] font-semibold mb-2 text-sm md:text-base">
+              <p className="text-[#FF7F38] font-semibold mb-2 text-sm md:text-base">
                 Regional Sales Manager
               </p>
               <p className="text-gray-500 text-sm">
@@ -832,13 +832,13 @@ export default function AboutPage() {
           {/* Optional: Join Team CTA */}
           <div className="mt-16 md:mt-20 text-center">
             <div className="inline-flex flex-col items-center gap-6 bg-gray-50 rounded-3xl p-8 md:p-12 max-w-2xl">
-              <div className="w-16 h-16 bg-[#F16D34] rounded-2xl flex items-center justify-center">
+              <div className="w-16 h-16 bg-[#FF7F38] rounded-2xl flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#161E54] mb-3">
+                <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-3">
                   Join Our Team
                 </h3>
                 <p className="text-gray-600 mb-6 text-base md:text-lg">
@@ -846,7 +846,7 @@ export default function AboutPage() {
                 </p>
                 <a
                   href="/careers"
-                  className="inline-flex items-center justify-center gap-2 bg-[#161E54] hover:bg-[#0d1230] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg text-base md:text-lg"
+                  className="inline-flex items-center justify-center gap-2 bg-[#00426D] hover:bg-[#0d1230] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg text-base md:text-lg"
                 >
                   View Open Positions
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -864,10 +864,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Certifications & Memberships
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
               Accredited. Recognized. Trusted.
             </h2>
           </div>
@@ -881,7 +881,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 IATA Cargo Agent
               </h3>
               <p className="text-sm text-gray-600">
@@ -896,7 +896,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 FIATA Member
               </h3>
               <p className="text-sm text-gray-600">
@@ -911,7 +911,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 ISO 9001:2015
               </h3>
               <p className="text-sm text-gray-600">
@@ -926,7 +926,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 Saudi Customs
               </h3>
               <p className="text-sm text-gray-600">
@@ -941,7 +941,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 WCA Network
               </h3>
               <p className="text-sm text-gray-600">
@@ -956,7 +956,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#161E54] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
                 ISO 14001:2015
               </h3>
               <p className="text-sm text-gray-600">
@@ -968,11 +968,11 @@ export default function AboutPage() {
           {/* Trust Statement */}
           <div className="mt-12 md:mt-16 text-center">
             <div className="inline-flex items-center gap-3 bg-white rounded-2xl px-8 py-6 shadow-sm">
-              <svg className="w-8 h-8 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-8 h-8 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
               <p className="text-gray-700 text-base md:text-lg">
-                <span className="font-bold text-[#161E54]">Fully compliant</span> with international standards and Saudi regulations
+                <span className="font-bold text-[#00426D]">Fully compliant</span> with international standards and Saudi regulations
               </p>
             </div>
           </div>
@@ -993,8 +993,8 @@ export default function AboutPage() {
             <div>
               {/* Badge */}
               <div className="inline-block mb-6">
-                <span className="bg-[#F16D34]/20 border border-[#F16D34]/50 text-[#F16D34] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide flex items-center gap-2">
-                  <span className="w-2 h-2 bg-[#F16D34] rounded-full animate-pulse" />
+                <span className="bg-[#FF7F38]/20 border border-[#FF7F38]/50 text-[#FF7F38] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide flex items-center gap-2">
+                  <span className="w-2 h-2 bg-[#FF7F38] rounded-full animate-pulse" />
                   Saudi Vision 2030
                 </span>
               </div>
@@ -1012,42 +1012,42 @@ export default function AboutPage() {
               {/* Alignment Points */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">Saudization of logistics workforce</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">National logistics center partnerships</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">Green supply chain initiatives</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">Digital Customs integration</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">SME logistics support programs</span>
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-[#F16D34] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                   <span className="text-white/90 text-sm md:text-base">Export facilitation services</span>
@@ -1059,25 +1059,25 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-6">
               {/* Stat 1 */}
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-3">65%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-3">65%</div>
                 <p className="text-white/90 text-sm md:text-base">Saudi national employees</p>
               </div>
 
               {/* Stat 2 */}
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-3">40%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-3">40%</div>
                 <p className="text-white/90 text-sm md:text-base">Fleet electrification target</p>
               </div>
 
               {/* Stat 3 */}
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-3">100%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-3">100%</div>
                 <p className="text-white/90 text-sm md:text-base">Digital documentation by 2026</p>
               </div>
 
               {/* Stat 4 */}
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 md:p-8 hover:bg-white/15 transition-all">
-                <div className="text-5xl md:text-6xl font-bold text-[#F16D34] mb-3">3x</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-3">3x</div>
                 <p className="text-white/90 text-sm md:text-base">Growth target by 2030</p>
               </div>
             </div>
@@ -1090,7 +1090,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
               Ready to Partner with MetroLink?
             </h2>
 
@@ -1104,7 +1104,7 @@ export default function AboutPage() {
               {/* Primary CTA */}
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-[#F16D34] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg hover:shadow-xl text-base md:text-lg w-full sm:w-auto"
+                className="inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg hover:shadow-xl text-base md:text-lg w-full sm:w-auto"
               >
                 Contact Us
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1115,7 +1115,7 @@ export default function AboutPage() {
               {/* Secondary CTA */}
               <a
                 href="/careers"
-                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-[#161E54] hover:bg-[#161E54] text-[#161E54] hover:text-white px-8 py-4 rounded-full font-semibold transition-all text-base md:text-lg w-full sm:w-auto"
+                className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-[#00426D] hover:bg-[#00426D] text-[#00426D] hover:text-white px-8 py-4 rounded-full font-semibold transition-all text-base md:text-lg w-full sm:w-auto"
               >
                 Join Our Team
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

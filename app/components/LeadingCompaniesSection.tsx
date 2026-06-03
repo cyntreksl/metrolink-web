@@ -43,15 +43,15 @@ export default function LeadingCompaniesSection() {
         <div className="mt-12 md:mt-16 pt-8 md:pt-12 border-t border-gray-200">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">500+</div>
               <div className="text-gray-600 text-sm md:text-base">Active Clients</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">98%</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">98%</div>
               <div className="text-gray-600 text-sm md:text-base">Client Retention Rate</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">15+</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">15+</div>
               <div className="text-gray-600 text-sm md:text-base">Industry Sectors Served</div>
             </div>
           </div>

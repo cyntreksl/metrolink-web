@@ -27,7 +27,7 @@ export default function NewsPage() {
 
             {/* Badge */}
             <div className="inline-block mb-6">
-              <span className="bg-[#F16D34]/20 border border-[#F16D34]/50 text-[#F16D34] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
+              <span className="bg-[#FF7F38]/20 border border-[#FF7F38]/50 text-[#FF7F38] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
                 News & Insights
               </span>
             </div>
@@ -49,7 +49,7 @@ export default function NewsPage() {
       <section className="py-8 bg-white border-b border-gray-200 sticky top-0 z-30">
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-4 overflow-x-auto">
-            <button className="px-6 py-2 bg-[#161E54] text-white rounded-full font-semibold text-sm whitespace-nowrap">
+            <button className="px-6 py-2 bg-[#00426D] text-white rounded-full font-semibold text-sm whitespace-nowrap">
               All
             </button>
             <button className="px-6 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full font-semibold text-sm whitespace-nowrap transition-colors">
@@ -114,7 +114,7 @@ export default function NewsPage() {
                     </span>
                   </div>
 
-                  <h2 className="text-2xl md:text-3xl font-bold text-[#161E54] mb-4 group-hover:text-[#3B9FC7] transition-colors">
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-4 group-hover:text-[#3B9FC7] transition-colors">
                     MetroLink Opens New Riyadh Office to Serve Central Province Clients
                   </h2>
 
@@ -132,7 +132,7 @@ export default function NewsPage() {
                       <span>5 min read</span>
                     </div>
 
-                    <Link href="/news/riyadh-office" className="inline-flex items-center gap-2 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                    <Link href="/news/riyadh-office" className="inline-flex items-center gap-2 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                       Read More
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -158,7 +158,7 @@ export default function NewsPage() {
                   Industry Insights
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   Saudi Arabia's Logistics Sector Poised for 10% Growth in 2026
                 </h3>
 
@@ -168,7 +168,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">Oct 25, 2025</span>
-                  <Link href="/news/logistics-growth" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/logistics-growth" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -193,7 +193,7 @@ export default function NewsPage() {
                   Company News
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   MetroLink Expands Sea Freight Routes to Southeast Asia
                 </h3>
 
@@ -203,7 +203,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">Oct 12, 2025</span>
-                  <Link href="/news/sea-freight-expansion" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/sea-freight-expansion" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -228,7 +228,7 @@ export default function NewsPage() {
                   Sustainability
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   MetroLink Achieves ISO 14001 Environmental Certification
                 </h3>
 
@@ -238,7 +238,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">Sept 28, 2025</span>
-                  <Link href="/news/iso-certification" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/iso-certification" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -263,7 +263,7 @@ export default function NewsPage() {
                   Technology
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   Launching the MetroLink Digital Portal — Track Your Cargo in Real Time
                 </h3>
 
@@ -273,7 +273,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">Aug 14, 2025</span>
-                  <Link href="/news/digital-portal" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/digital-portal" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -298,7 +298,7 @@ export default function NewsPage() {
                   Vision 2030
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   Supporting Saudi Vision 2030 Logistics Transformation Goals
                 </h3>
 
@@ -308,7 +308,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">Aug 03, 2025</span>
-                  <Link href="/news/vision-2030" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/vision-2030" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -333,7 +333,7 @@ export default function NewsPage() {
                   Industry Insights
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   What Customs Regulation Means for Saudi Freight Forwarders
                 </h3>
 
@@ -343,7 +343,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">July 20, 2025</span>
-                  <Link href="/news/customs-regulation" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/customs-regulation" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -368,7 +368,7 @@ export default function NewsPage() {
                   Company News
                 </span>
 
-                <h3 className="text-xl font-bold text-[#161E54] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
+                <h3 className="text-xl font-bold text-[#00426D] mb-3 group-hover:text-[#3B9FC7] transition-colors line-clamp-2">
                   MetroLink Wins 'Best Freight Forwarder 2025' at Saudi Logistics Awards
                 </h3>
 
@@ -378,7 +378,7 @@ export default function NewsPage() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                   <span className="text-xs text-gray-500">October 15, 2025</span>
-                  <Link href="/news/award-2025" className="inline-flex items-center gap-1 text-[#F16D34] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
+                  <Link href="/news/award-2025" className="inline-flex items-center gap-1 text-[#FF7F38] hover:text-[#d85d2a] font-semibold text-sm transition-colors">
                     Read
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -391,7 +391,7 @@ export default function NewsPage() {
 
           {/* Load More Button */}
           <div className="text-center mt-12">
-            <button className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-[#161E54] border-2 border-[#161E54] px-8 py-3 rounded-full font-semibold transition-all">
+            <button className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-[#00426D] border-2 border-[#00426D] px-8 py-3 rounded-full font-semibold transition-all">
               Load More Articles
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -420,11 +420,11 @@ export default function NewsPage() {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full sm:flex-1 px-6 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#F16D34] focus:border-transparent"
+                className="w-full sm:flex-1 px-6 py-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[#FF7F38] focus:border-transparent"
               />
               <button
                 type="submit"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#F16D34] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
               >
                 Subscribe
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

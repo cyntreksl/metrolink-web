@@ -73,7 +73,7 @@ export default function AdvantageSection() {
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+          <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
             The MetroLink Advantage
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -92,8 +92,8 @@ export default function AdvantageSection() {
               className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:bg-white/10 hover:border-white/20 transition-all duration-300 group"
             >
               {/* Icon */}
-              <div className="w-14 h-14 md:w-16 md:h-16 bg-[#F16D34]/20 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#F16D34]/30 transition-colors">
-                <div className="text-[#F16D34]">
+              <div className="w-14 h-14 md:w-16 md:h-16 bg-[#FF7F38]/20 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/30 transition-colors">
+                <div className="text-[#FF7F38]">
                   {advantage.icon}
                 </div>
               </div>
@@ -115,7 +115,7 @@ export default function AdvantageSection() {
         <div className="mt-12 md:mt-16 text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-8 py-6">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#F16D34] rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
@@ -129,7 +129,7 @@ export default function AdvantageSection() {
             <div className="hidden sm:block w-px h-12 bg-white/20" />
             
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#F16D34] rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
@@ -143,7 +143,7 @@ export default function AdvantageSection() {
             <div className="hidden sm:block w-px h-12 bg-white/20" />
             
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#F16D34] rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z" />
                 </svg>

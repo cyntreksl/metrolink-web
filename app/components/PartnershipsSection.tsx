@@ -34,12 +34,12 @@ export default function PartnershipsSection() {
           {/* Right Column - Content */}
           <div className="order-1 lg:order-2">
             {/* Eyebrow */}
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Strategic Partnerships
             </p>
 
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
               Building Long-Term Logistics Alliances
             </h2>
 
@@ -53,7 +53,7 @@ export default function PartnershipsSection() {
               {/* Preferred shipping line rates */}
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 w-6 h-6 mt-1">
-                  <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -63,7 +63,7 @@ export default function PartnershipsSection() {
               {/* Airline cargo partnerships */}
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 w-6 h-6 mt-1">
-                  <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -73,7 +73,7 @@ export default function PartnershipsSection() {
               {/* Global agent network */}
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 w-6 h-6 mt-1">
-                  <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -83,7 +83,7 @@ export default function PartnershipsSection() {
               {/* Insurance underwriters */}
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 w-6 h-6 mt-1">
-                  <svg className="w-6 h-6 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-6 h-6 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -94,7 +94,7 @@ export default function PartnershipsSection() {
             {/* CTA Button */}
             <Link
               href="/partnerships"
-              className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-[#161E54] hover:bg-[#161E54] text-[#161E54] hover:text-white px-8 py-4 rounded-full font-semibold transition-all text-base md:text-lg"
+              className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-[#00426D] hover:bg-[#00426D] text-[#00426D] hover:text-white px-8 py-4 rounded-full font-semibold transition-all text-base md:text-lg"
             >
               Become a Partner
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,7 +107,7 @@ export default function PartnershipsSection() {
         {/* Optional: Partnership Logos or Stats */}
         <div className="mt-16 md:mt-20 pt-12 md:pt-16 border-t border-gray-200">
           <div className="text-center mb-8">
-            <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-2">
+            <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-2">
               Our Strategic Partners
             </h3>
             <p className="text-gray-600">
@@ -123,17 +123,17 @@ export default function PartnershipsSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7" />
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-[#161E54] mb-1">50+</div>
+              <div className="text-2xl font-bold text-[#00426D] mb-1">50+</div>
               <div className="text-sm text-gray-600">Shipping Lines</div>
             </div>
 
             <div className="text-center">
               <div className="w-16 h-16 mx-auto bg-orange-50 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-8 h-8 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-[#161E54] mb-1">30+</div>
+              <div className="text-2xl font-bold text-[#00426D] mb-1">30+</div>
               <div className="text-sm text-gray-600">Airlines</div>
             </div>
 
@@ -143,7 +143,7 @@ export default function PartnershipsSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-[#161E54] mb-1">200+</div>
+              <div className="text-2xl font-bold text-[#00426D] mb-1">200+</div>
               <div className="text-sm text-gray-600">Global Agents</div>
             </div>
 
@@ -153,7 +153,7 @@ export default function PartnershipsSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-[#161E54] mb-1">10+</div>
+              <div className="text-2xl font-bold text-[#00426D] mb-1">10+</div>
               <div className="text-sm text-gray-600">Insurance Partners</div>
             </div>
           </div>

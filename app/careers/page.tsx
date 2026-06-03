@@ -27,7 +27,7 @@ export default function CareersPage() {
 
             {/* Badge */}
             <div className="inline-block mb-6">
-              <span className="bg-[#F16D34]/20 border border-[#F16D34]/50 text-[#F16D34] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
+              <span className="bg-[#FF7F38]/20 border border-[#FF7F38]/50 text-[#FF7F38] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
                 Careers at MetroLink
               </span>
             </div>
@@ -52,12 +52,12 @@ export default function CareersPage() {
             {/* Left Column - Content */}
             <div>
               {/* Eyebrow */}
-              <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+              <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
                 Life at MetroLink
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
                 Why Work at MetroLink?
               </h2>
 
@@ -75,7 +75,7 @@ export default function CareersPage() {
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#161E54]">Continuous Training:</strong> Industry-leading certifications, technical workshops, and leadership programs.
+                    <strong className="text-[#00426D]">Continuous Training:</strong> Industry-leading certifications, technical workshops, and leadership programs.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -85,7 +85,7 @@ export default function CareersPage() {
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#161E54]">Global Exposure:</strong> Work with international clients and gain cross-border logistics expertise.
+                    <strong className="text-[#00426D]">Global Exposure:</strong> Work with international clients and gain cross-border logistics expertise.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -95,7 +95,7 @@ export default function CareersPage() {
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#161E54]">Career Growth:</strong> Clear pathways from entry-level to senior management positions.
+                    <strong className="text-[#00426D]">Career Growth:</strong> Clear pathways from entry-level to senior management positions.
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
@@ -105,7 +105,7 @@ export default function CareersPage() {
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#161E54]">Inclusive Culture:</strong> Supporting Saudi Vision 2030 with 65% Saudi nationals on our team.
+                    <strong className="text-[#00426D]">Inclusive Culture:</strong> Supporting Saudi Vision 2030 with 65% Saudi nationals on our team.
                   </p>
                 </div>
               </div>
@@ -113,15 +113,15 @@ export default function CareersPage() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6">
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">200+</div>
+                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">200+</div>
                   <p className="text-sm md:text-base text-gray-600">Employees</p>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">65%</div>
+                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">65%</div>
                   <p className="text-sm md:text-base text-gray-600">Saudi Nationals</p>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#161E54] mb-2">4.7★</div>
+                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">4.7★</div>
                   <p className="text-sm md:text-base text-gray-600">Employee Rating</p>
                 </div>
               </div>
@@ -145,10 +145,10 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Benefits & Perks
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
               What We Offer
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -165,7 +165,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">Career Growth</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">Career Growth</h3>
               <p className="text-gray-600 leading-relaxed">
                 Clear promotion pathways with annual performance reviews and merit-based advancement opportunities.
               </p>
@@ -178,7 +178,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">Training & Development</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">Training & Development</h3>
               <p className="text-gray-600 leading-relaxed">
                 Sponsored certifications, technical workshops, and leadership programs to enhance your skills.
               </p>
@@ -191,7 +191,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">Health & Wellness</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">Health & Wellness</h3>
               <p className="text-gray-600 leading-relaxed">
                 Comprehensive medical insurance for employees and families, plus wellness initiatives.
               </p>
@@ -204,7 +204,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">International Exposure</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">International Exposure</h3>
               <p className="text-gray-600 leading-relaxed">
                 Work with global clients and partners across Asia, Europe, Africa, and the Americas.
               </p>
@@ -217,7 +217,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">Competitive Packages</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">Competitive Packages</h3>
               <p className="text-gray-600 leading-relaxed">
                 Market-leading salaries, annual bonuses, and performance incentives aligned with industry standards.
               </p>
@@ -230,7 +230,7 @@ export default function CareersPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-3">Inclusive Culture</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-3">Inclusive Culture</h3>
               <p className="text-gray-600 leading-relaxed">
                 Diverse, multicultural workplace that values every team member's unique perspective and background.
               </p>
@@ -244,10 +244,10 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Open Positions
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
               Current Opportunities
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -257,7 +257,7 @@ export default function CareersPage() {
 
           {/* Filter Tabs */}
           <div className="flex flex-wrap justify-center gap-3 mb-10">
-            <button className="px-6 py-2.5 rounded-full bg-[#161E54] text-white font-semibold text-sm hover:bg-[#1f2968] transition-colors">
+            <button className="px-6 py-2.5 rounded-full bg-[#00426D] text-white font-semibold text-sm hover:bg-[#1f2968] transition-colors">
               All Roles
             </button>
             <button className="px-6 py-2.5 rounded-full bg-gray-100 text-gray-700 font-semibold text-sm hover:bg-gray-200 transition-colors">
@@ -284,8 +284,8 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Operations Manager</h3>
-                    <span className="px-3 py-1 bg-[#F16D34]/10 text-[#F16D34] text-xs font-semibold rounded-full">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Operations Manager</h3>
+                    <span className="px-3 py-1 bg-[#FF7F38]/10 text-[#FF7F38] text-xs font-semibold rounded-full">
                       Operations
                     </span>
                   </div>
@@ -311,7 +311,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -322,7 +322,7 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Senior Sales Executive</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Senior Sales Executive</h3>
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full">
                       Sales
                     </span>
@@ -349,7 +349,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -360,8 +360,8 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Customs Clearance Specialist</h3>
-                    <span className="px-3 py-1 bg-[#F16D34]/10 text-[#F16D34] text-xs font-semibold rounded-full">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Customs Clearance Specialist</h3>
+                    <span className="px-3 py-1 bg-[#FF7F38]/10 text-[#FF7F38] text-xs font-semibold rounded-full">
                       Operations
                     </span>
                   </div>
@@ -387,7 +387,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -398,7 +398,7 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Financial Analyst</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Financial Analyst</h3>
                     <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full">
                       Finance
                     </span>
@@ -425,7 +425,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -436,7 +436,7 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">IT Systems Administrator</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">IT Systems Administrator</h3>
                     <span className="px-3 py-1 bg-purple-100 text-purple-700 text-xs font-semibold rounded-full">
                       IT
                     </span>
@@ -463,7 +463,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -474,7 +474,7 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">HR Coordinator</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">HR Coordinator</h3>
                     <span className="px-3 py-1 bg-pink-100 text-pink-700 text-xs font-semibold rounded-full">
                       HR
                     </span>
@@ -501,7 +501,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -512,8 +512,8 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Warehouse Supervisor</h3>
-                    <span className="px-3 py-1 bg-[#F16D34]/10 text-[#F16D34] text-xs font-semibold rounded-full">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Warehouse Supervisor</h3>
+                    <span className="px-3 py-1 bg-[#FF7F38]/10 text-[#FF7F38] text-xs font-semibold rounded-full">
                       Operations
                     </span>
                   </div>
@@ -539,7 +539,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -550,7 +550,7 @@ export default function CareersPage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-3">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#161E54]">Junior Account Executive</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-[#00426D]">Junior Account Executive</h3>
                     <span className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full">
                       Sales
                     </span>
@@ -577,7 +577,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                 </div>
-                <Link href="#" className="bg-[#161E54] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
+                <Link href="#" className="bg-[#00426D] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#1f2968] transition-colors text-center whitespace-nowrap">
                   Apply Now
                 </Link>
               </div>
@@ -587,7 +587,7 @@ export default function CareersPage() {
       </section>
 
       {/* Don't See the Right Role? CTA Banner */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-[#161E54] via-[#1f2968] to-[#161E54]">
+      <section className="py-16 md:py-20 bg-gradient-to-br from-[#00426D] via-[#1f2968] to-[#00426D]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Icon */}
@@ -608,7 +608,7 @@ export default function CareersPage() {
             </p>
 
             {/* CTA Button */}
-            <Link href="#" className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#d85a28] transition-colors shadow-lg">
+            <Link href="#" className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#d85a28] transition-colors shadow-lg">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
               </svg>
@@ -617,7 +617,7 @@ export default function CareersPage() {
 
             {/* Additional Info */}
             <p className="text-sm text-white/70 mt-6">
-              Or email your resume to <a href="mailto:careers@metrolink-ksa.com" className="text-[#F16D34] hover:underline font-semibold">careers@metrolink-ksa.com</a>
+              Or email your resume to <a href="mailto:careers@metrolink-ksa.com" className="text-[#FF7F38] hover:underline font-semibold">careers@metrolink-ksa.com</a>
             </p>
           </div>
         </div>

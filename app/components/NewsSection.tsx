@@ -5,7 +5,7 @@ const newsArticles = [
   {
     id: 1,
     category: 'Industry',
-    categoryColor: 'bg-orange-100 text-[#F16D34]',
+    categoryColor: 'bg-orange-100 text-[#FF7F38]',
     date: 'Jan 15, 2026',
     title: 'MetroLink Expands Sea Freight Routes to Southeast Asia',
     excerpt: 'New direct shipping connections from Dammam to major ports in Singapore, Malaysia, and Thailand.',
@@ -16,7 +16,7 @@ const newsArticles = [
   {
     id: 2,
     category: 'Company',
-    categoryColor: 'bg-orange-100 text-[#F16D34]',
+    categoryColor: 'bg-orange-100 text-[#FF7F38]',
     date: 'Dec 20, 2025',
     title: 'MetroLink Achieves ISO 14001 Environmental Certification',
     excerpt: 'Commitment to sustainable logistics practices recognized with international environmental management certification.',
@@ -27,7 +27,7 @@ const newsArticles = [
   {
     id: 3,
     category: 'Vision 2030',
-    categoryColor: 'bg-orange-100 text-[#F16D34]',
+    categoryColor: 'bg-orange-100 text-[#FF7F38]',
     date: 'Nov 08, 2025',
     title: 'Supporting Saudi Vision 2030 Logistics Transformation Goals',
     excerpt: 'MetroLink invests in technology and infrastructure to support the Kingdom\'s logistics sector development.',
@@ -44,16 +44,16 @@ export default function NewsSection() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16">
           <div>
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-3 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-3 text-sm md:text-base">
               Latest News
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
               News & Insights
             </h2>
           </div>
           <Link
             href="/news"
-            className="mt-6 md:mt-0 inline-flex items-center gap-2 text-[#161E54] hover:text-[#F16D34] font-semibold transition-colors group"
+            className="mt-6 md:mt-0 inline-flex items-center gap-2 text-[#00426D] hover:text-[#FF7F38] font-semibold transition-colors group"
           >
             All Articles
             <svg 
@@ -95,7 +95,7 @@ export default function NewsSection() {
                   )}
                 </div>
                 {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-[#161E54]/0 group-hover:bg-[#161E54]/10 transition-all duration-300" />
+                <div className="absolute inset-0 bg-[#00426D]/0 group-hover:bg-[#00426D]/10 transition-all duration-300" />
               </div>
 
               {/* Content */}
@@ -109,7 +109,7 @@ export default function NewsSection() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3 leading-tight group-hover:text-[#F16D34] transition-colors">
+                <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3 leading-tight group-hover:text-[#FF7F38] transition-colors">
                   <Link href={article.link}>
                     {article.title}
                   </Link>
@@ -123,7 +123,7 @@ export default function NewsSection() {
                 {/* Read More Link */}
                 <Link
                   href={article.link}
-                  className="inline-flex items-center gap-2 text-[#F16D34] hover:text-[#d85d2a] font-semibold transition-colors group/link text-sm md:text-base"
+                  className="inline-flex items-center gap-2 text-[#FF7F38] hover:text-[#d85d2a] font-semibold transition-colors group/link text-sm md:text-base"
                 >
                   Read More
                   <svg 
@@ -141,7 +141,7 @@ export default function NewsSection() {
         </div>
 
         {/* Optional: Subscribe to Newsletter CTA */}
-        <div className="mt-16 md:mt-20 bg-gradient-to-r from-[#161E54] to-[#0A4F7E] rounded-3xl p-8 md:p-12 text-center">
+        <div className="mt-16 md:mt-20 bg-gradient-to-r from-[#00426D] to-[#0A4F7E] rounded-3xl p-8 md:p-12 text-center">
           <div className="max-w-2xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
               Stay Updated with Industry News
@@ -153,9 +153,9 @@ export default function NewsSection() {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="flex-1 px-6 py-4 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#F16D34] text-sm md:text-base"
+                className="flex-1 px-6 py-4 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#FF7F38] text-sm md:text-base"
               />
-              <button className="bg-[#F16D34] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg whitespace-nowrap text-sm md:text-base">
+              <button className="bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg whitespace-nowrap text-sm md:text-base">
                 Subscribe Now
               </button>
             </div>

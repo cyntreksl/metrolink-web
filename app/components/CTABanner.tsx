@@ -34,7 +34,7 @@ export default function CTABanner() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Eyebrow */}
-          <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+          <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
             Get Started Today
           </p>
 
@@ -54,7 +54,7 @@ export default function CTABanner() {
             {/* Primary CTA */}
             <Link
               href="/quote"
-              className="inline-flex items-center justify-center gap-2 bg-[#F16D34] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg hover:shadow-xl text-base md:text-lg w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg hover:shadow-xl text-base md:text-lg w-full sm:w-auto"
             >
               Request a Quote
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,25 +78,25 @@ export default function CTABanner() {
           <div className="mt-10 md:mt-12 pt-8 md:pt-10 border-t border-white/20">
             <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12 text-white/80 text-sm">
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>2-Hour Quote Response</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>No Hidden Fees</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>24/7 Support</span>
               </div>
               <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span>Competitive Rates</span>

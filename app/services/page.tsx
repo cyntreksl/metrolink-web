@@ -27,7 +27,7 @@ export default function ServicesPage() {
 
             {/* Badge */}
             <div className="inline-block mb-6">
-              <span className="bg-[#F16D34]/20 border border-[#F16D34]/50 text-[#F16D34] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
+              <span className="bg-[#FF7F38]/20 border border-[#FF7F38]/50 text-[#FF7F38] px-4 py-2 rounded-full text-xs md:text-sm font-semibold uppercase tracking-wide">
                 Our Services
               </span>
             </div>
@@ -56,7 +56,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Sea Freight</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Sea Freight</h3>
             </div>
 
             {/* Service 2: Air Freight */}
@@ -66,7 +66,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Air Freight</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Air Freight</h3>
             </div>
 
             {/* Service 3: Land Transport */}
@@ -76,7 +76,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1m6 1a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Land Transport</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Land Transport</h3>
             </div>
 
             {/* Service 4: Customs Clearance */}
@@ -86,7 +86,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Customs Clearance</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Customs Clearance</h3>
             </div>
 
             {/* Service 5: Warehousing & Distribution */}
@@ -96,7 +96,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Warehousing &<br />Distribution</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Warehousing &<br />Distribution</h3>
             </div>
 
             {/* Service 6: Project Cargo */}
@@ -106,7 +106,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h3 className="text-base md:text-lg font-semibold text-[#161E54]">Project Cargo</h3>
+              <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Project Cargo</h3>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                   <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
@@ -135,20 +135,20 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">150+ global ports</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">14-35 days</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                   <span className="text-gray-700 font-medium">Dammam Port specialists</span>
@@ -158,48 +158,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Full Container Load (FCL) & LCL</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Reefer & temperature-controlled containers</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Hazardous materials (IMO certified)</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Door-to-port and door-to-door delivery</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Real-time vessel tracking</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -245,7 +245,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                 </svg>
@@ -260,19 +260,19 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Global destinations</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">2-7 days delivery</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Certified handling</span>
@@ -282,48 +282,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Express & economy options</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Temperature-controlled cargo</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Dangerous goods (DG) handling</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Pharmaceutical & perishables</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Charter flight arrangements</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -349,7 +349,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
                   <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z" />
@@ -365,19 +365,19 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                   </svg>
                   <span className="text-gray-700 font-medium">GCC coverage</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">24/7 operations</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
@@ -388,48 +388,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">FTL & LTL services</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Cross-border GCC delivery</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Real-time GPS tracking</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Temperature-controlled vehicles</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Dedicated fleet management</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -475,7 +475,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                 </svg>
@@ -490,19 +490,19 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Licensed brokers</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Fast processing</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Full documentation</span>
@@ -512,48 +512,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Import/export documentation</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Duty & tax calculation</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">HS code classification</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Regulatory compliance consulting</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Special permits & licenses</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -579,7 +579,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
@@ -594,19 +594,19 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                   <span className="text-gray-700 font-medium">50,000 sqm facility</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
                   <span className="text-gray-700 font-medium">WMS integration</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Climate controlled</span>
@@ -616,48 +616,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Inventory management (WMS)</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Pick, pack & ship services</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Cross-docking facilities</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Value-added services (labeling, kitting)</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">24/7 security & surveillance</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -703,7 +703,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#F16D34] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
                   <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
@@ -720,19 +720,19 @@ export default function ServicesPage() {
               {/* Info Badges */}
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Heavy-lift experts</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                   </svg>
                   <span className="text-gray-700 font-medium">Full project management</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
-                  <svg className="w-5 h-5 text-[#F16D34]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                   <span className="text-gray-700 font-medium">Specialized equipment</span>
@@ -742,48 +742,48 @@ export default function ServicesPage() {
               {/* Features List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Heavy-lift & oversized cargo</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Out-of-gauge (OOG) shipments</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Route surveys & feasibility studies</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Engineering & lashing plans</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <span className="text-sm text-gray-700">Permit coordination & approvals</span>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 rounded-full border-2 border-[#F16D34] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3 h-3 text-[#F16D34]" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#FF7F38]" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -807,10 +807,10 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Trade Lanes
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
               Key Routes from Dammam
             </h2>
           </div>
@@ -824,7 +824,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Rotterdam</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Rotterdam</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Sea</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -844,7 +844,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Singapore</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Singapore</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Sea</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -864,7 +864,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Shanghai</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Shanghai</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Sea</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -884,7 +884,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Frankfurt</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Frankfurt</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Air</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -904,7 +904,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1m6 1a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Dubai</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Dubai</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Land</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -924,7 +924,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Houston</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Houston</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Sea</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -944,7 +944,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1m6 1a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-1m4 1v-1" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → Jeddah</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → Jeddah</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Land</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -964,7 +964,7 @@ export default function ServicesPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#161E54] mb-2">Dammam → London</h3>
+              <h3 className="text-xl font-bold text-[#00426D] mb-2">Dammam → London</h3>
               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                 <span>Air</span>
                 <span className="w-1 h-1 bg-gray-400 rounded-full" />
@@ -997,7 +997,7 @@ export default function ServicesPage() {
             {/* CTA Button */}
             <Link 
               href="/contact" 
-              className="inline-flex items-center justify-center gap-2 bg-[#F16D34] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
+              className="inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
             >
               Talk to Our Team
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

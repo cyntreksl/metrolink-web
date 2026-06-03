@@ -90,16 +90,16 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-16">
           <div>
-            <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-3 text-sm md:text-base">
+            <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-3 text-sm md:text-base">
               What We Offer
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
               Comprehensive Freight Solutions
             </h2>
           </div>
           <Link
             href="/services"
-            className="mt-6 md:mt-0 inline-flex items-center gap-2 text-[#161E54] hover:text-[#F16D34] font-semibold transition-colors group"
+            className="mt-6 md:mt-0 inline-flex items-center gap-2 text-[#00426D] hover:text-[#FF7F38] font-semibold transition-colors group"
           >
             All Services
             <svg 
@@ -128,7 +128,7 @@ export default function ServicesSection() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl md:text-2xl font-bold text-[#161E54] mb-3">
+              <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                 {service.title}
               </h3>
 
@@ -140,7 +140,7 @@ export default function ServicesSection() {
               {/* Learn More Link */}
               <Link
                 href={service.link}
-                className="inline-flex items-center gap-2 text-[#F16D34] hover:text-[#d85d2a] font-semibold transition-colors group/link text-sm md:text-base"
+                className="inline-flex items-center gap-2 text-[#FF7F38] hover:text-[#d85d2a] font-semibold transition-colors group/link text-sm md:text-base"
               >
                 Learn more
                 <svg 
@@ -163,7 +163,7 @@ export default function ServicesSection() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 bg-[#161E54] hover:bg-[#0d1230] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg text-base md:text-lg"
+            className="inline-flex items-center justify-center gap-2 bg-[#00426D] hover:bg-[#0d1230] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg text-base md:text-lg"
           >
             Contact Our Team
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

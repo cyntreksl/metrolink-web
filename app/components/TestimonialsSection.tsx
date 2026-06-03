@@ -51,7 +51,7 @@ const StarRating = ({ rating }: { rating: number }) => {
       {[...Array(5)].map((_, index) => (
         <svg
           key={index}
-          className={`w-5 h-5 ${index < rating ? 'text-[#F16D34]' : 'text-gray-300'}`}
+          className={`w-5 h-5 ${index < rating ? 'text-[#FF7F38]' : 'text-gray-300'}`}
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -88,10 +88,10 @@ export default function TestimonialsSection() {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <p className="text-[#F16D34] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
+          <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
             Client Testimonials
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#161E54]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
             Trusted by Industry Leaders
           </h2>
         </div>
@@ -123,7 +123,7 @@ export default function TestimonialsSection() {
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-lg flex items-center justify-center transition-all z-10 group"
             aria-label="Previous testimonial"
           >
-            <svg className="w-6 h-6 text-[#161E54] group-hover:text-[#F16D34] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-[#00426D] group-hover:text-[#FF7F38] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
           </button>
@@ -133,7 +133,7 @@ export default function TestimonialsSection() {
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-lg flex items-center justify-center transition-all z-10 group"
             aria-label="Next testimonial"
           >
-            <svg className="w-6 h-6 text-[#161E54] group-hover:text-[#F16D34] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-[#00426D] group-hover:text-[#FF7F38] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>
@@ -146,7 +146,7 @@ export default function TestimonialsSection() {
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`w-2.5 h-2.5 rounded-full transition-all ${
-                index === currentSlide ? 'bg-[#F16D34] w-8' : 'bg-gray-300 hover:bg-gray-400'
+                index === currentSlide ? 'bg-[#FF7F38] w-8' : 'bg-gray-300 hover:bg-gray-400'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />
@@ -179,7 +179,7 @@ function TestimonialCard({ testimonial }: { testimonial: typeof testimonials[0] 
 
         {/* Name and Position */}
         <div>
-          <div className="font-bold text-[#161E54] text-base md:text-lg">
+          <div className="font-bold text-[#00426D] text-base md:text-lg">
             {testimonial.name}
           </div>
           <div className="text-sm md:text-base text-gray-500">
