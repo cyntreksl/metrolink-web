@@ -6,11 +6,17 @@ export default function HeroSection() {
     <section className="relative min-h-[600px] md:min-h-[700px] lg:min-h-[800px] flex items-center">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A4F7E]/95 via-[#0A4F7E]/85 to-[#0A4F7E]/70 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A4F7E]/95 via-[#0A4F7E]/85 to-[#0A4F7E]/10 z-10" />
         {/* Placeholder for background image - replace with actual shipping port image */}
         <div className="w-full h-full bg-[#0A4F7E]">
           {/* You can replace this with an actual Image component when you have the image */}
-          <div className="w-full h-full opacity-50 bg-gradient-to-br from-blue-900 to-blue-700" />
+          <Image
+              src="/images/home-hero.jpg"
+              alt="MetroLink cargo operations"
+              fill
+              className="object-cover"
+              priority
+          />
         </div>
       </div>
 
@@ -18,15 +24,15 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 relative z-20">
         <div className="max-w-2xl">
           {/* Location Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-[#FF7F38]/50 rounded-full px-4 md:px-6 py-2 md:py-3 mb-6 md:mb-8">
+          <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 backdrop-blur-sm border border-[#FF7F38]/50 rounded-full px-4 md:px-6 py-2 md:py-3 mb-6 md:mb-8">
             <div className="w-2 h-2 bg-[#FF7F38] rounded-full animate-pulse" />
-            <span className="text-white/90 text-xs md:text-sm font-medium uppercase tracking-wide">
+            <span className="text-[#FF7F38] text-xs md:text-sm font-semibold uppercase tracking-wide">
               Dammam • Eastern Province • Saudi Arabia
             </span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white mb-6 md:mb-8">
             Your Gateway to{' '}
             <span className="text-[#FF7F38]">Global Freight</span>
             <br />
@@ -35,7 +41,7 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-white/90 mb-8 md:mb-10 leading-relaxed max-w-xl">
-            MetroLink delivers world-class freight forwarding from the heart of Saudi Arabia's industrial hub. 
+            MetroLink delivers world-class freight forwarding from the heart of Saudi Arabia's industrial hub.
             Sea, air, land — we move your cargo efficiently, reliably, and securely.
           </p>
 
