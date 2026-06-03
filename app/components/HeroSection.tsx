@@ -66,7 +66,9 @@ export default function HeroSection() {
               </svg>
             </Link>
           </div>
+        </div>
 
+        <div className="max-w-6xl mb-46 lg:mb-20">
           {/* Certifications */}
           <div className="flex flex-wrap items-center gap-4 md:gap-6 text-white/80">
             <div className="flex items-center gap-2">
@@ -98,7 +100,7 @@ export default function HeroSection() {
       </div>
 
       {/* Stats Bar */}
-      <div className="absolute bottom-0 left-0 right-0 z-20 bg-[#00426D]/95 backdrop-blur-sm border-t border-white/10">
+      <div className="absolute bottom-0 left-0 right-0 z-20 bg-[#001F35]/90 backdrop-blur-sm border-t border-white/10">
         <div className="container mx-auto px-4 py-6 md:py-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {/* Years of Experience */}
