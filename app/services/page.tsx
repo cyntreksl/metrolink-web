@@ -59,8 +59,19 @@ export default function ServicesPage() {
             {/* Service 1: Sea Freight */}
             <div className="bg-white rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
               <div className="w-16 h-16 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-[#4A7C9C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.5h18M5.5 21c-.828 0-1.5-.448-1.5-1s.672-1 1.5-1h13c.828 0 1.5.448 1.5 1s-.672 1-1.5 1h-13zM6 15.5l1.5-7h9l1.5 7M9 8.5L10 3h4l1 5.5" />
+                <svg className="w-6 h-6" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_1_36)">
+                    <path d="M11 9.33997V12.8334" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M11 1.83337V4.58337" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M17.4167 11.9167V6.41671C17.4167 5.93048 17.2235 5.46416 16.8797 5.12034C16.5359 4.77653 16.0696 4.58337 15.5833 4.58337H6.41667C5.93044 4.58337 5.46412 4.77653 5.12031 5.12034C4.77649 5.46416 4.58334 5.93048 4.58334 6.41671V11.9167" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M17.765 18.3334C18.751 16.6692 19.2645 14.7676 19.25 12.8334L11.7443 9.49762C11.51 9.39351 11.2564 9.33972 11 9.33972C10.7436 9.33972 10.49 9.39351 10.2557 9.49762L2.75 12.8334C2.70756 15.4401 3.62424 17.9715 5.32583 19.9467" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M1.83334 19.25C2.38334 19.7084 2.93334 20.1667 4.125 20.1667C6.41667 20.1667 6.41667 18.3334 8.70834 18.3334C9.9 18.3334 10.45 18.7917 11 19.25C11.55 19.7084 12.1 20.1667 13.2917 20.1667C15.5833 20.1667 15.5833 18.3334 17.875 18.3334C19.0667 18.3334 19.6167 18.7917 20.1667 19.25" stroke="#4A7C9C" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_36">
+                      <rect width="22" height="22" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
               <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Sea Freight</h3>
@@ -69,8 +80,8 @@ export default function ServicesPage() {
             {/* Service 2: Air Freight */}
             <div className="bg-white rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
               <div className="w-16 h-16 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-[#4A7C9C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                <svg className="w-6 h-6" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.4833 15.9385L12.8333 8.42183L16.0417 5.2135C17.4167 3.8385 17.875 2.00517 17.4167 1.0885C16.5 0.630168 14.6667 1.0885 13.2917 2.4635L10.0833 5.67183L2.56666 4.02183C2.10832 3.93017 1.74166 4.1135 1.55832 4.48017L1.28332 4.9385C1.09999 5.39683 1.19166 5.85517 1.55832 6.13017L6.41666 9.3385L4.58332 12.0885H1.83332L0.916656 13.0052L3.66666 14.8385L5.49999 17.5885L6.41666 16.6718V13.9218L9.16666 12.0885L12.375 16.9468C12.65 17.3135 13.1083 17.4052 13.5667 17.2218L14.025 17.0385C14.3917 16.7635 14.575 16.3968 14.4833 15.9385Z" stroke="#4A7C9C" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <h3 className="text-base md:text-lg font-semibold text-[#00426D]">Air Freight</h3>
@@ -126,7 +137,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                   <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
@@ -252,7 +263,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                 </svg>
@@ -356,7 +367,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
                   <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z" />
@@ -482,7 +493,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                 </svg>
@@ -586,7 +597,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2 lg:order-1">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
@@ -710,7 +721,7 @@ export default function ServicesPage() {
             {/* Content */}
             <div className="order-2">
               {/* Category Badge */}
-              <div className="inline-flex items-center gap-2 bg-[#FF7F38] text-white px-4 py-2 rounded-lg text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 bg-[#FF7F38]/20 text-[#FF7F38] px-4 py-2 rounded-lg text-sm font-semibold mb-6">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
                   <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
