@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-[#001F35] text-white">
       {/* Newsletter section */}
       <div className="bg-[#0A4F7E] py-6 md:py-8">
         <div className="container mx-auto px-4">
@@ -15,7 +15,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="px-4 md:px-6 py-3 rounded-full w-full sm:w-64 md:w-80 text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#FF7F38] text-sm md:text-base"
+                className="px-4 md:px-6 py-3 rounded-full w-full sm:w-64 md:w-80 text-gray-100 focus:outline-none focus:ring-2 focus:ring-[#FF7F38] text-sm md:text-base bg-[#8EC5FF]/30"
               />
               <button className="bg-[#FF7F38] hover:bg-[#d85d2a] px-6 md:px-8 py-3 rounded-full font-semibold transition-colors whitespace-nowrap text-sm md:text-base">
                 Subscribe
@@ -46,7 +46,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 leading-relaxed text-sm md:text-base">
               Saudi Arabia's premier freight forwarding company, connecting businesses from Dammam to the world since 2004.
             </p>
-            
+
             {/* Social media icons */}
             <div className="flex gap-3 justify-center md:justify-start">
               <a href="#" className="w-10 h-10 bg-white/5 hover:bg-[#FF7F38] rounded flex items-center justify-center transition-colors">
