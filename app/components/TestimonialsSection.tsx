@@ -91,7 +91,7 @@ export default function TestimonialsSection() {
           <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
             Client Testimonials
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] tracking-tight">
             Trusted by Industry Leaders
           </h2>
         </div>
@@ -99,21 +99,21 @@ export default function TestimonialsSection() {
         {/* Testimonials Carousel */}
         <div className="relative">
           {/* Desktop View - 3 columns */}
-          <div className="hidden lg:grid lg:grid-cols-3 gap-8">
+          <div className="hidden lg:grid lg:grid-cols-3 gap-8 px-3">
             {getVisibleTestimonials().map((testimonial) => (
               <TestimonialCard key={testimonial.id} testimonial={testimonial} />
             ))}
           </div>
 
           {/* Tablet View - 2 columns */}
-          <div className="hidden md:grid lg:hidden md:grid-cols-2 gap-6">
+          <div className="hidden md:grid lg:hidden md:grid-cols-2 gap-6 px-3">
             {getVisibleTestimonials().slice(0, 2).map((testimonial) => (
               <TestimonialCard key={testimonial.id} testimonial={testimonial} />
             ))}
           </div>
 
           {/* Mobile View - 1 column */}
-          <div className="md:hidden">
+          <div className="md:hidden px-10">
             <TestimonialCard testimonial={testimonials[currentSlide]} />
           </div>
 
