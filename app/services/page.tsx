@@ -145,7 +145,7 @@ export default function ServicesPage() {
                 Ocean Cargo Services
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Sea Freight</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Sea Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink offers comprehensive sea freight services through King Abdul Aziz Port in Dammam — one of the largest ports in the Middle East. We handle FCL and LCL shipments connecting you to major global trade lanes.
               </p>
@@ -237,7 +237,13 @@ export default function ServicesPage() {
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/sea-cargo.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Sea Freight Image</span>
                 </div>
               </div>
@@ -254,7 +260,13 @@ export default function ServicesPage() {
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/air-cargo.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Air Freight Image</span>
                 </div>
               </div>
@@ -270,7 +282,7 @@ export default function ServicesPage() {
                 Express Air Solutions
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Air Freight</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Air Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 For time-critical shipments, MetroLink offers express and economy air cargo services via King Fahd International Airport. Our air freight solutions ensure your cargo reaches its destination quickly and safely, with full tracking and handling expertise.
               </p>
@@ -375,7 +387,7 @@ export default function ServicesPage() {
                 Road Freight Services
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Land Transport</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Land Transport</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink operates a modern fleet of GPS-tracked vehicles providing Full Truck Load (FTL) and Less than Truck Load (LTL) services across Saudi Arabia and the GCC region. We ensure safe, timely delivery with real-time visibility throughout the journey.
               </p>
@@ -467,7 +479,13 @@ export default function ServicesPage() {
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/land-transport.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Land Transport Image</span>
                 </div>
               </div>
@@ -484,7 +502,13 @@ export default function ServicesPage() {
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/customs-clearance.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Customs Clearance Image</span>
                 </div>
               </div>
@@ -500,7 +524,7 @@ export default function ServicesPage() {
                 Customs & Compliance
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Customs Clearance</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Customs Clearance</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our licensed customs brokerage team handles all import and export documentation, ensuring smooth clearance at all Saudi ports and borders. We navigate complex regulations, calculate duties accurately, and ensure full compliance with Saudi customs requirements.
               </p>
@@ -604,7 +628,7 @@ export default function ServicesPage() {
                 Storage & Fulfillment
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Warehousing & Distribution</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Warehousing & Distribution</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our 50,000 sqm state-of-the-art warehouse facility in Dammam offers climate-controlled storage and advanced WMS-powered inventory management. From receiving to pick-pack-ship operations, we handle your goods with precision and care.
               </p>
@@ -695,7 +719,13 @@ export default function ServicesPage() {
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/warehouse.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Warehousing Image</span>
                 </div>
               </div>
@@ -712,7 +742,13 @@ export default function ServicesPage() {
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
-                  {/* Placeholder - Replace with actual image */}
+                  <Image
+                      src="/images/project-cargo.jpg"
+                      alt="MetroLink cargo operations"
+                      fill
+                      className="object-cover"
+                      priority
+                  />
                   <span className="text-white text-sm">Project Cargo Image</span>
                 </div>
               </div>
@@ -730,7 +766,7 @@ export default function ServicesPage() {
                 Heavy & Specialized Cargo
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">Project Cargo</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Project Cargo</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink specializes in handling oversized, heavy-lift, and out-of-gauge cargo for complex industrial projects. Our experienced team manages every aspect from route surveys and permits to specialized equipment and on-site installation support.
               </p>
@@ -828,7 +864,7 @@ export default function ServicesPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Trade Lanes
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">
               Key Routes from Dammam
             </h2>
           </div>
