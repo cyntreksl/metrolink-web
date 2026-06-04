@@ -195,7 +195,7 @@ export default function AboutPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Our Purpose
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] tracking-tight">
               Mission, Vision & Strategy
             </h2>
           </div>
@@ -221,7 +221,7 @@ export default function AboutPage() {
                 </p>
 
                 {/* Title */}
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">
+                <h3 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">
                   Empowering Saudi Trade
                 </h3>
 
@@ -279,7 +279,7 @@ export default function AboutPage() {
               </p>
 
               {/* Title */}
-              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-4">
+              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-4 tracking-tight">
                 Saudi Arabia's Leading Logistics Company
               </h3>
 
@@ -324,13 +324,13 @@ export default function AboutPage() {
           {/* Strategic Goals 2026-2030 */}
           <div className="bg-white rounded-3xl p-8 md:p-12 border-2 border-gray-200">
             <div className="flex items-center gap-4 mb-8 md:mb-12">
-              <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 md:w-7 md:h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-[#00426D]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg className="w-6 h-6 md:w-7 md:h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D]">
-                Strategic Goals 2026–2030
+              <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] tracking-tight">
+                Strategic Goals 2026 – 2030
               </h3>
             </div>
 
@@ -379,7 +379,7 @@ export default function AboutPage() {
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight tracking-tight">
                 Our Core Values
               </h2>
 
