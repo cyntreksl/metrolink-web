@@ -127,7 +127,7 @@ export default function ServicesPage() {
                 Ocean Cargo Services
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Sea Freight</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Sea Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink offers comprehensive sea freight services through King Abdul Aziz Port in Dammam — one of the largest ports in the Middle East. We handle FCL and LCL shipments connecting you to major global trade lanes.
               </p>
@@ -207,7 +207,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get a Sea Freight Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -252,7 +252,7 @@ export default function ServicesPage() {
                 Express Air Solutions
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Air Freight</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Air Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 For time-critical shipments, MetroLink offers express and economy air cargo services via King Fahd International Airport. Our air freight solutions ensure your cargo reaches its destination quickly and safely, with full tracking and handling expertise.
               </p>
@@ -331,7 +331,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get an Air Freight Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -357,7 +357,7 @@ export default function ServicesPage() {
                 Road Freight Services
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Land Transport</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Land Transport</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink operates a modern fleet of GPS-tracked vehicles providing Full Truck Load (FTL) and Less than Truck Load (LTL) services across Saudi Arabia and the GCC region. We ensure safe, timely delivery with real-time visibility throughout the journey.
               </p>
@@ -437,7 +437,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get a Land Transport Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -482,7 +482,7 @@ export default function ServicesPage() {
                 Customs & Compliance
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Customs Clearance</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Customs Clearance</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our licensed customs brokerage team handles all import and export documentation, ensuring smooth clearance at all Saudi ports and borders. We navigate complex regulations, calculate duties accurately, and ensure full compliance with Saudi customs requirements.
               </p>
@@ -561,7 +561,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get Customs Support
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -586,7 +586,7 @@ export default function ServicesPage() {
                 Storage & Fulfillment
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Warehousing & Distribution</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Warehousing & Distribution</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our 50,000 sqm state-of-the-art warehouse facility in Dammam offers climate-controlled storage and advanced WMS-powered inventory management. From receiving to pick-pack-ship operations, we handle your goods with precision and care.
               </p>
@@ -665,7 +665,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get Warehousing Solutions
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -712,7 +712,7 @@ export default function ServicesPage() {
                 Heavy & Specialized Cargo
               </div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#3B9FC7] mb-6">Project Cargo</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">Project Cargo</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 MetroLink specializes in handling oversized, heavy-lift, and out-of-gauge cargo for complex industrial projects. Our experienced team manages every aspect from route surveys and permits to specialized equipment and on-site installation support.
               </p>
@@ -791,7 +791,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#3B9FC7] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-lg font-semibold transition-all">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
                 Get Project Cargo Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -810,7 +810,7 @@ export default function ServicesPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Trade Lanes
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">
               Key Routes from Dammam
             </h2>
           </div>
@@ -852,7 +852,7 @@ export default function ServicesPage() {
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>16-21 days</span>
+                  <span>18-21 days</span>
                 </div>
               </div>
             </div>
@@ -872,7 +872,7 @@ export default function ServicesPage() {
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>23-28 days</span>
+                  <span>25-28 days</span>
                 </div>
               </div>
             </div>
@@ -981,11 +981,11 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Banner Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-r from-[#0A4F7E] via-[#0d5a8f] to-[#0A4F7E]">
+      <section className="py-16 md:py-20 bg-gradient-to-r from-[#0A4F7E] via-[#0d5a8f] to-[#0A4F7E] mb-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
               Need a Custom Logistics Solution?
             </h2>
 
@@ -995,9 +995,9 @@ export default function ServicesPage() {
             </p>
 
             {/* CTA Button */}
-            <Link 
-              href="/contact" 
-              className="inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
             >
               Talk to Our Team
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
