@@ -139,28 +139,6 @@ export default function NewsSection() {
             </article>
           ))}
         </div>
-
-        {/* Optional: Subscribe to Newsletter CTA */}
-        <div className="mt-16 md:mt-20 bg-gradient-to-r from-[#00426D] to-[#0A4F7E] rounded-3xl p-8 md:p-12 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Stay Updated with Industry News
-            </h3>
-            <p className="text-white/80 mb-6 md:mb-8 text-base md:text-lg">
-              Subscribe to our newsletter for the latest logistics insights, industry trends, and company updates.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="flex-1 px-6 py-4 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#FF7F38] text-sm md:text-base"
-              />
-              <button className="bg-[#FF7F38] hover:bg-[#d85d2a] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg whitespace-nowrap text-sm md:text-base">
-                Subscribe Now
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
