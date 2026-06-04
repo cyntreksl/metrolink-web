@@ -467,9 +467,11 @@ export default function AboutPage() {
                 {/* Value 5: Sustainability */}
                 <div className="bg-gray-50 rounded-2xl p-6 md:p-8 hover:bg-orange-50/50 transition-colors group">
                   <div className="w-12 h-12 md:w-14 md:h-14 bg-[#FF7F38]/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FF7F38]/20 transition-colors">
-                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <svg className="w-6 h-6 md:w-7 md:h-7 text-[#FF7F38]" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.25005 15C6.93309 15.004 5.66273 14.5129 4.69093 13.6241C3.71913 12.7352 3.11687 11.5137 3.0036 10.2016C2.89032 8.8895 3.27431 7.58277 4.07941 6.54056C4.8845 5.49834 6.05189 4.79678 7.35005 4.575C11.625 3.75 12.75 3.36 14.25 1.5C15 3 15.75 4.635 15.75 7.5C15.75 11.625 12.165 15 8.25005 15Z" stroke="#FF7F38" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+                      <path d="M1.5 15.75C1.5 13.5 2.8875 11.73 5.31 11.25C7.125 10.89 9 9.75 9.75 9" stroke="#FF7F38" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
+
                   </div>
                   <h3 className="text-xl md:text-2xl font-bold text-[#00426D] mb-3">
                     Sustainability
