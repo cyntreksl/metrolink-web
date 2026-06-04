@@ -76,7 +76,7 @@ export default function AdvantageSection() {
           <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
             The MetroLink Advantage
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
             Why Companies Choose MetroLink
           </h2>
           <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
@@ -109,51 +109,6 @@ export default function AdvantageSection() {
               </p>
             </div>
           ))}
-        </div>
-
-        {/* Optional Bottom Stats or CTA */}
-        <div className="mt-12 md:mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-8 py-6">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <div className="text-left">
-                <div className="text-2xl md:text-3xl font-bold text-white">99.2%</div>
-                <div className="text-sm text-white/70">Customer Satisfaction</div>
-              </div>
-            </div>
-            
-            <div className="hidden sm:block w-px h-12 bg-white/20" />
-            
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <div className="text-left">
-                <div className="text-2xl md:text-3xl font-bold text-white">20+</div>
-                <div className="text-sm text-white/70">Years of Excellence</div>
-              </div>
-            </div>
-
-            <div className="hidden sm:block w-px h-12 bg-white/20" />
-            
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#FF7F38] rounded-full flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z" />
-                </svg>
-              </div>
-              <div className="text-left">
-                <div className="text-2xl md:text-3xl font-bold text-white">60K+</div>
-                <div className="text-sm text-white/70">Annual Shipments</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
