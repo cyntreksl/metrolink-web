@@ -8,18 +8,23 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Column - Image */}
           <div className="relative">
+            {/* Location Badge */}
+            <div className="absolute -top-5 left-6 z-10 bg-[#FF7F38] text-white px-4 py-3 rounded-xl shadow-lg flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+              </svg>
+              <span className="font-semibold">Dammam, KSA</span>
+            </div>
             {/* Main Image */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              {/* Location Badge */}
-              <div className="absolute top-6 left-6 z-10 bg-[#FF7F38] text-white px-4 py-3 rounded-xl shadow-lg flex items-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                </svg>
-                <span className="font-semibold">Dammam, KSA</span>
-              </div>
-
               {/* Placeholder for warehouse image - replace with actual image */}
-              <div className="aspect-[4/5] bg-gradient-to-br from-blue-900 to-blue-700">
+              <Image
+                  src="/images/about-home.jpg"
+                  alt="MetroLink cargo operations"
+                  fill
+                  priority
+              />
+              <div className="aspect-[7/5] bg-gradient-to-br from-blue-900 to-blue-700">
                 {/* Add your actual warehouse/logistics image here */}
                 <div className="w-full h-full flex items-center justify-center text-white/20">
                   <svg className="w-32 h-32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -31,7 +36,7 @@ export default function AboutSection() {
 
             {/* Stats Badge - Years */}
             <div className="absolute -bottom-8 -right-4 md:-right-8 bg-[#00426D] text-white px-8 py-6 rounded-2xl shadow-xl z-20">
-              <div className="text-5xl md:text-6xl font-bold text-[#FF7F38] mb-1">20+</div>
+              <div className="text-5xl font-bold text-[#FF7F38] mb-3">20+</div>
               <div className="text-sm md:text-base text-white/80 whitespace-nowrap">Years Serving the Kingdom</div>
             </div>
           </div>
@@ -44,18 +49,18 @@ export default function AboutSection() {
             </p>
 
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-[#00426D] mb-6 leading-tight">
               Dammam's Premier Freight Forwarding Company
             </h2>
 
             {/* Description Paragraphs */}
-            <div className="space-y-4 mb-8 text-gray-600 leading-relaxed">
+            <div className="space-y-4 mb-8 text-[#6A7282] leading-relaxed">
               <p className="text-base md:text-lg">
-                Founded in 2004 in Dammam, MetroLink has grown into one of Saudi Arabia's most trusted freight and logistics companies. 
+                Founded in 2004 in Dammam, MetroLink has grown into one of Saudi Arabia's most trusted freight and logistics companies.
                 Strategically located near King Abdul Aziz Port, we serve the Kingdom's most demanding industries — from oil & gas and petrochemicals to retail and healthcare.
               </p>
               <p className="text-base md:text-lg">
-                Aligned with Saudi Vision 2030, we are investing in technology, talent, and infrastructure to build a smarter, 
+                Aligned with Saudi Vision 2030, we are investing in technology, talent, and infrastructure to build a smarter,
                 more sustainable logistics network for the Kingdom's future.
               </p>
             </div>
@@ -63,7 +68,7 @@ export default function AboutSection() {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4 md:gap-6 mb-8">
               {/* Offices */}
-              <div className="bg-gray-50 rounded-xl p-4 md:p-6 border border-gray-100">
+              <div className="bg-gray-100 rounded-xl p-4 md:p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -76,7 +81,7 @@ export default function AboutSection() {
               </div>
 
               {/* Professionals */}
-              <div className="bg-gray-50 rounded-xl p-4 md:p-6 border border-gray-100">
+              <div className="bg-gray-100 rounded-xl p-4 md:p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -89,7 +94,7 @@ export default function AboutSection() {
               </div>
 
               {/* Destinations */}
-              <div className="bg-gray-50 rounded-xl p-4 md:p-6 border border-gray-100">
+              <div className="bg-gray-100 rounded-xl p-4 md:p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -102,14 +107,14 @@ export default function AboutSection() {
               </div>
 
               {/* Warehouse Space */}
-              <div className="bg-gray-50 rounded-xl p-4 md:p-6 border border-gray-100">
+              <div className="bg-gray-100 rounded-xl p-4 md:p-6">
                 <div className="flex items-center gap-3 mb-2">
                   <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                     </svg>
                   </div>
-                  <div className="text-3xl font-bold text-[#00426D]">50K</div>
+                  <div className="text-3xl font-bold text-[#00426D]">50K sqm</div>
                 </div>
                 <div className="text-sm md:text-base text-gray-600">Warehouse Space (sqm)</div>
               </div>
