@@ -65,7 +65,7 @@ export default function AboutPage() {
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight tracking-tight">
                 A Legacy Built on Moving Things Forward
               </h2>
 
@@ -120,8 +120,8 @@ export default function AboutPage() {
 
               {/* Stats Row */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-                <div className="text-center md:text-left">
-                  <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
@@ -130,8 +130,8 @@ export default function AboutPage() {
                   <div className="text-sm text-gray-600">Years in Business</div>
                 </div>
 
-                <div className="text-center md:text-left">
-                  <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
@@ -140,8 +140,8 @@ export default function AboutPage() {
                   <div className="text-sm text-gray-600">Offices Nationwide</div>
                 </div>
 
-                <div className="text-center md:text-left">
-                  <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
@@ -150,8 +150,8 @@ export default function AboutPage() {
                   <div className="text-sm text-gray-600">Team Members</div>
                 </div>
 
-                <div className="text-center md:text-left">
-                  <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
                     <svg className="w-6 h-6 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
@@ -165,19 +165,21 @@ export default function AboutPage() {
             {/* Right Column - Image */}
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-                {/* Placeholder for warehouse image */}
-                <div className="aspect-[4/5] bg-gradient-to-br from-blue-100 to-orange-50">
+                <div className="aspect-[8/5] bg-gradient-to-br from-blue-100 to-orange-50">
                   <div className="w-full h-full flex items-center justify-center">
-                    <svg className="w-32 h-32 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                    </svg>
+                    <Image
+                        src="/images/about-home.jpg"
+                        alt="MetroLink cargo operations"
+                        fill
+                        priority
+                    />
                   </div>
                 </div>
               </div>
 
               {/* Floating Badge - Warehouse Size */}
-              <div className="absolute -bottom-6 -right-6 bg-[#FF7F38] text-white px-8 py-6 rounded-2xl shadow-xl">
-                <div className="text-4xl md:text-5xl font-bold mb-1">50K</div>
+              <div className="absolute -bottom-6 -right-6 bg-[#FF7F38] text-white px-8 py-6 rounded-3xl shadow-xl">
+                <div className="text-3xl font-bold mb-1">50K</div>
                 <div className="text-sm md:text-base opacity-90">sqm Warehouse</div>
               </div>
             </div>
