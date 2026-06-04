@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function ServicesPage() {
   return (
@@ -8,7 +9,13 @@ export default function ServicesPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          {/* Placeholder for background image */}
+          <Image
+              src="/images/services-hero.jpg"
+              alt="MetroLink cargo operations"
+              fill
+              className="object-cover"
+              priority
+          />
           <div className="w-full h-full opacity-30 bg-gradient-to-br from-blue-900 to-blue-700" />
         </div>
 
@@ -33,7 +40,7 @@ export default function ServicesPage() {
             </div>
 
             {/* Heading */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
               End-to-End Freight Solutions
             </h1>
 
