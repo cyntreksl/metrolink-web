@@ -787,7 +787,7 @@ export default function AboutPage() {
                         stroke="#FF7F38"
                         strokeWidth="1.5"
                         strokeLinecap="round"
-                        stroke-linejoin="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M1.5 15.75C1.5 13.5 2.8875 11.73 5.31 11.25C7.125 10.89 9 9.75 9.75 9"
@@ -904,7 +904,7 @@ export default function AboutPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Our Journey
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight">
               20 Years of Growth
             </h2>
           </div>
@@ -1083,7 +1083,7 @@ export default function AboutPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Leadership Team
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">
               The People Behind MetroLink
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -1243,55 +1243,6 @@ export default function AboutPage() {
               <p className="text-gray-500 text-sm">10 years in freight sales</p>
             </div>
           </div>
-
-          {/* Optional: Join Team CTA */}
-          <div className="mt-16 md:mt-20 text-center">
-            <div className="inline-flex flex-col items-center gap-6 bg-gray-50 rounded-3xl p-8 md:p-12 max-w-2xl">
-              <div className="w-16 h-16 bg-[#FF7F38] rounded-2xl flex items-center justify-center">
-                <svg
-                  className="w-8 h-8 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#00426D] mb-3">
-                  Join Our Team
-                </h3>
-                <p className="text-gray-600 mb-6 text-base md:text-lg">
-                  We're always looking for talented professionals to join our
-                  growing team.
-                </p>
-                <a
-                  href="/careers"
-                  className="inline-flex items-center justify-center gap-2 bg-[#00426D] hover:bg-[#0d1230] text-white px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 shadow-lg text-base md:text-lg"
-                >
-                  View Open Positions
-                  <svg
-                    className="w-5 h-5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 7l5 5m0 0l-5 5m5-5H6"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -1303,7 +1254,7 @@ export default function AboutPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Certifications & Memberships
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] tracking-tight">
               Accredited. Recognized. Trusted.
             </h2>
           </div>
@@ -1313,21 +1264,19 @@ export default function AboutPage() {
             {/* IATA Cargo Agent */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 IATA Cargo Agent
               </h3>
               <p className="text-sm text-gray-600">
@@ -1338,21 +1287,19 @@ export default function AboutPage() {
             {/* FIATA Member */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 FIATA Member
               </h3>
               <p className="text-sm text-gray-600">
@@ -1363,21 +1310,19 @@ export default function AboutPage() {
             {/* ISO 9001:2015 */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 ISO 9001:2015
               </h3>
               <p className="text-sm text-gray-600">Quality Management System</p>
@@ -1386,21 +1331,19 @@ export default function AboutPage() {
             {/* Saudi Customs */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 Saudi Customs
               </h3>
               <p className="text-sm text-gray-600">Licensed Authority</p>
@@ -1409,21 +1352,19 @@ export default function AboutPage() {
             {/* WCA Network */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 WCA Network
               </h3>
               <p className="text-sm text-gray-600">World Cargo Alliance</p>
@@ -1432,49 +1373,22 @@ export default function AboutPage() {
             {/* ISO 14001:2015 */}
             <div className="bg-white rounded-2xl p-6 md:p-8 text-center hover:shadow-xl transition-all duration-300 group">
               <div className="w-16 h-16 md:w-20 md:h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
-                <svg
-                  className="w-8 h-8 md:w-10 md:h-10 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
+                <svg className="w-8 h-8 md:w-10 md:h-10 text-[#00426D]/8" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_1112)">
+                    <path d="M11.6078 9.66748L12.7441 16.062C12.7568 16.1373 12.7462 16.2147 12.7138 16.2838C12.6813 16.3529 12.6286 16.4105 12.5625 16.4488C12.4965 16.4872 12.4203 16.5044 12.3442 16.4983C12.268 16.4921 12.1956 16.4629 12.1366 16.4145L9.45156 14.3992C9.32194 14.3024 9.16448 14.2501 9.00268 14.2501C8.84089 14.2501 8.68343 14.3024 8.55381 14.3992L5.86431 16.4137C5.8053 16.4621 5.73295 16.4912 5.65693 16.4974C5.5809 16.5035 5.50481 16.4864 5.43881 16.4481C5.3728 16.4099 5.32001 16.3525 5.2875 16.2835C5.25498 16.2145 5.24427 16.1372 5.25681 16.062L6.39231 9.66748" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M9 10.5C11.4853 10.5 13.5 8.48528 13.5 6C13.5 3.51472 11.4853 1.5 9 1.5C6.51472 1.5 4.5 3.51472 4.5 6C4.5 8.48528 6.51472 10.5 9 10.5Z" stroke="#00426D" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_1112">
+                      <rect width="18" height="18" fill="white"/>
+                    </clipPath>
+                  </defs>
                 </svg>
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2">
+              <h3 className="text-lg md:text-xl font-bold text-[#00426D] mb-2 tracking-tight">
                 ISO 14001:2015
               </h3>
               <p className="text-sm text-gray-600">Environmental Management</p>
-            </div>
-          </div>
-
-          {/* Trust Statement */}
-          <div className="mt-12 md:mt-16 text-center">
-            <div className="inline-flex items-center gap-3 bg-white rounded-2xl px-8 py-6 shadow-sm">
-              <svg
-                className="w-8 h-8 text-[#FF7F38]"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                />
-              </svg>
-              <p className="text-gray-700 text-base md:text-lg">
-                <span className="font-bold text-[#00426D]">
-                  Fully compliant
-                </span>{" "}
-                with international standards and Saudi regulations
-              </p>
             </div>
           </div>
         </div>
@@ -1501,7 +1415,7 @@ export default function AboutPage() {
               </div>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
                 Proudly Aligned with Saudi Arabia's Vision
               </h2>
 
@@ -1671,7 +1585,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 tracking-tight">
               Ready to Partner with MetroLink?
             </h2>
 
