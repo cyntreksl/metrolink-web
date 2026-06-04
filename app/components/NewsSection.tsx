@@ -47,7 +47,7 @@ export default function NewsSection() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-3 text-sm md:text-base">
               Latest News
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] tracking-tight">
               News & Insights
             </h2>
           </div>
@@ -56,10 +56,10 @@ export default function NewsSection() {
             className="mt-6 md:mt-0 inline-flex items-center gap-2 text-[#00426D] hover:text-[#FF7F38] font-semibold transition-colors group"
           >
             All Articles
-            <svg 
-              className="w-5 h-5 group-hover:translate-x-1 transition-transform" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -126,10 +126,10 @@ export default function NewsSection() {
                   className="inline-flex items-center gap-2 text-[#FF7F38] hover:text-[#d85d2a] font-semibold transition-colors group/link text-sm md:text-base"
                 >
                   Read More
-                  <svg 
-                    className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <svg
+                    className="w-4 h-4 group-hover/link:translate-x-1 transition-transform"
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
