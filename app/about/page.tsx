@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -8,9 +9,14 @@ export default function AboutPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          {/* Placeholder for background image - replace with actual container port image */}
-          <div className="w-full h-full opacity-30 bg-gradient-to-br from-blue-900 to-blue-700">
-            {/* Add your actual port/logistics image here */}
+          <div className="w-full h-full opacity-60 bg-gradient-to-br from-blue-900 to-blue-700">
+            <Image
+                src="/images/home-hero.jpg"
+                alt="MetroLink cargo operations"
+                fill
+                className="object-cover"
+                priority
+            />
           </div>
         </div>
 
@@ -35,12 +41,12 @@ export default function AboutPage() {
             </div>
 
             {/* Heading */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
               Connecting Saudi Arabia to the World Since 2004
             </h1>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
+            <p className="text-lg md:text-xl text-white/60 leading-relaxed">
               Over two decades of excellence in freight forwarding from the heart of the Eastern Province — built on trust, integrity, and a passion for logistics.
             </p>
           </div>
@@ -198,7 +204,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#0A4F7E] to-[#00426D] rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
               {/* Decorative background pattern */}
               <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
-              
+
               <div className="relative z-10">
                 {/* Icon */}
                 <div className="w-14 h-14 md:w-16 md:h-16 bg-[#FF7F38] rounded-2xl flex items-center justify-center mb-6">
@@ -552,7 +558,7 @@ export default function AboutPage() {
                 <div className="relative flex items-start gap-8 md:gap-0">
                   {/* Timeline dot */}
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
                       <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2004</span>
@@ -568,7 +574,7 @@ export default function AboutPage() {
                 {/* 2008 - Air Freight */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
@@ -584,7 +590,7 @@ export default function AboutPage() {
                 {/* 2012 - GCC Network */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
                       <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2012</span>
@@ -600,7 +606,7 @@ export default function AboutPage() {
                 {/* 2016 - ISO Certification */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
@@ -616,7 +622,7 @@ export default function AboutPage() {
                 {/* 2019 - Logistics Complex */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
                       <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2019</span>
@@ -632,7 +638,7 @@ export default function AboutPage() {
                 {/* 2022 - Vision 2030 */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 hidden md:block" />
                   <div className="flex-1 md:pl-12">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
@@ -648,7 +654,7 @@ export default function AboutPage() {
                 {/* 2024 - Digital Transformation */}
                 <div className="relative flex items-start gap-8 md:gap-0">
                   <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-[#FF7F38] rounded-full border-4 border-[#0A4F7E] transform -translate-x-1/2 hidden sm:block z-10" />
-                  
+
                   <div className="flex-1 md:pr-12 md:text-right">
                     <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 md:p-8 hover:bg-white/15 transition-all">
                       <span className="text-[#FF7F38] font-bold text-lg md:text-xl mb-2 block">2024</span>
