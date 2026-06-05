@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function ContactPage() {
   return (
@@ -8,7 +9,13 @@ export default function ContactPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          {/* Placeholder for background image - containers/port */}
+          <Image
+              src="/images/contact-hero.jpg"
+              alt="MetroLink cargo operations"
+              fill
+              className="object-cover"
+              priority
+          />
           <div className="w-full h-full opacity-30 bg-gradient-to-br from-blue-900 to-blue-700" />
         </div>
 
@@ -51,49 +58,49 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Call Us */}
             <div className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-5">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mx-auto mb-5">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-[#00426D] mb-2">Call Us</h3>
-              <p className="text-xl font-bold text-[#3B9FC7] mb-2">+966 13 800 1234</p>
+              <p className="text-xl font-bold text-[#00426D] mb-2">+966 13 800 1234</p>
               <p className="text-sm text-gray-500">Available Sun-Thu, 8AM-6PM</p>
             </div>
 
             {/* Email Us */}
             <div className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-5">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mx-auto mb-5">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-[#00426D] mb-2">Email Us</h3>
-              <p className="text-xl font-bold text-[#3B9FC7] mb-2">info@metrolink-sa.com</p>
+              <p className="text-xl font-bold text-[#00426D] mb-2">info@metrolink-sa.com</p>
               <p className="text-sm text-gray-500">We respond within 24 hrs</p>
             </div>
 
             {/* 24/7 Operations */}
             <div className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-5">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mx-auto mb-5">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-[#00426D] mb-2">24/7 Operations</h3>
-              <p className="text-xl font-bold text-[#3B9FC7] mb-2">+966 13 800 9999</p>
+              <p className="text-xl font-bold text-[#00426D] mb-2">+966 13 800 9999</p>
               <p className="text-sm text-gray-500">For urgent cargo enquiries</p>
             </div>
 
             {/* Our Website */}
             <div className="bg-white rounded-xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-5">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mx-auto mb-5">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-[#00426D] mb-2">Our Website</h3>
-              <p className="text-xl font-bold text-[#3B9FC7] mb-2">www.metrolink-sa.com</p>
+              <p className="text-xl font-bold text-[#00426D] mb-2">www.metrolink-sa.com</p>
               <p className="text-sm text-gray-500">Track shipments online</p>
             </div>
           </div>
@@ -207,7 +214,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         placeholder="Ahmed Al-Rashidi"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -217,7 +224,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         placeholder="Your Company LLC"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                   </div>
@@ -231,7 +238,7 @@ export default function ContactPage() {
                       <input
                         type="email"
                         placeholder="ahmed@company.com"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -241,7 +248,7 @@ export default function ContactPage() {
                       <input
                         type="tel"
                         placeholder="+966 5X XXX XXXX"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                   </div>
@@ -251,7 +258,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-semibold text-[#00426D] mb-2">
                       Inquiry Type <span className="text-red-500">*</span>
                     </label>
-                    <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent text-gray-700">
+                    <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent text-gray-700">
                       <option value="">Select inquiry type...</option>
                       <option value="quote">Freight Quote Request</option>
                       <option value="tracking">Shipment Tracking</option>
@@ -270,7 +277,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         placeholder="e.g. Dammam, KSA"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -280,7 +287,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         placeholder="e.g. Rotterdam, NL"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -290,7 +297,7 @@ export default function ContactPage() {
                       <input
                         type="text"
                         placeholder="e.g. Steel pipes"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent"
                       />
                     </div>
                   </div>
@@ -303,7 +310,7 @@ export default function ContactPage() {
                     <textarea
                       rows={5}
                       placeholder="Please describe your cargo weight, dimensions, special requirements, or any questions..."
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3B9FC7] focus:border-transparent resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#00426D] focus:border-transparent resize-none"
                     />
                   </div>
 
