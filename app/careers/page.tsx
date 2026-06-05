@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function CareersPage() {
   return (
@@ -8,7 +9,13 @@ export default function CareersPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          {/* Placeholder for background image - team working */}
+          <Image
+              src="/images/careers-hero.jpg"
+              alt="MetroLink cargo operations"
+              fill
+              className="object-cover"
+              priority
+          />
           <div className="w-full h-full opacity-30 bg-gradient-to-br from-blue-900 to-blue-700" />
         </div>
 
@@ -57,7 +64,7 @@ export default function CareersPage() {
               </p>
 
               {/* Heading */}
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight tracking-tight">
                 Why Work at MetroLink?
               </h2>
 
@@ -69,59 +76,91 @@ export default function CareersPage() {
               {/* Key Points */}
               <div className="space-y-4 mb-10">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full border-2 border-[#3B9FC7] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3.5 h-3.5 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg
+                      className="w-6 h-6 text-[#FF7F38]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#00426D]">Continuous Training:</strong> Industry-leading certifications, technical workshops, and leadership programs.
+                    A fast-growing company with real advancement opportunities
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full border-2 border-[#3B9FC7] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3.5 h-3.5 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg
+                      className="w-6 h-6 text-[#FF7F38]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#00426D]">Global Exposure:</strong> Work with international clients and gain cross-border logistics expertise.
+                    International exposure through our global partner network
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full border-2 border-[#3B9FC7] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3.5 h-3.5 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg
+                      className="w-6 h-6 text-[#FF7F38]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#00426D]">Career Growth:</strong> Clear pathways from entry-level to senior management positions.
+                    Strong emphasis on Saudization and national talent development
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full border-2 border-[#3B9FC7] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <svg className="w-3.5 h-3.5 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg
+                      className="w-6 h-6 text-[#FF7F38]"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </div>
                   <p className="text-gray-700 text-base md:text-lg">
-                    <strong className="text-[#00426D]">Inclusive Culture:</strong> Supporting Saudi Vision 2030 with 65% Saudi nationals on our team.
+                    Competitive compensation packages aligned with Vision 2030
                   </p>
                 </div>
               </div>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6">
-                <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">200+</div>
+                <div className="bg-gray-100 p-3 text-center rounded-lg">
+                  <div className="text-3xl md:text-4xl font-extrabold text-[#00426D] mb-2">200+</div>
                   <p className="text-sm md:text-base text-gray-600">Employees</p>
                 </div>
-                <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">65%</div>
+                <div className="bg-gray-100 p-3 text-center rounded-lg">
+                  <div className="text-3xl md:text-4xl font-extrabold text-[#00426D] mb-2">65%</div>
                   <p className="text-sm md:text-base text-gray-600">Saudi Nationals</p>
                 </div>
-                <div>
-                  <div className="text-3xl md:text-4xl font-bold text-[#00426D] mb-2">4.7★</div>
+                <div className="bg-gray-100 p-3 text-center rounded-lg">
+                  <div className="text-3xl md:text-4xl font-extrabold text-[#00426D] mb-2">4.7★</div>
                   <p className="text-sm md:text-base text-gray-600">Employee Rating</p>
                 </div>
               </div>
@@ -130,10 +169,13 @@ export default function CareersPage() {
             {/* Right Column - Image */}
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center">
-                {/* Placeholder for team meeting image */}
-                <svg className="w-24 h-24 text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+                <Image
+                    src="/images/core-about.jpg"
+                    alt="MetroLink cargo operations"
+                    fill
+                    className="object-cover"
+                    priority
+                />
               </div>
             </div>
           </div>
@@ -148,8 +190,8 @@ export default function CareersPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Benefits & Perks
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
-              What We Offer
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight tracking-tight">
+              What MetroLink Offers You
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
               We invest in our employees' growth, well-being, and success with comprehensive benefits and a supportive work environment.
@@ -160,79 +202,79 @@ export default function CareersPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {/* Benefit 1: Career Growth */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">Career Growth</h3>
               <p className="text-gray-600 leading-relaxed">
-                Clear promotion pathways with annual performance reviews and merit-based advancement opportunities.
+                Structured career paths, promotions, and leadership development programs for all employees.
               </p>
             </div>
 
             {/* Benefit 2: Training & Development */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">Training & Development</h3>
               <p className="text-gray-600 leading-relaxed">
-                Sponsored certifications, technical workshops, and leadership programs to enhance your skills.
+                Access to industry certifications (IATA, FIATA), workshops, and international logistics courses.
               </p>
             </div>
 
             {/* Benefit 3: Health & Wellness */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">Health & Wellness</h3>
               <p className="text-gray-600 leading-relaxed">
-                Comprehensive medical insurance for employees and families, plus wellness initiatives.
+                Comprehensive medical insurance for you and your family, plus wellness programs.
               </p>
             </div>
 
             {/* Benefit 4: International Exposure */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">International Exposure</h3>
               <p className="text-gray-600 leading-relaxed">
-                Work with global clients and partners across Asia, Europe, Africa, and the Americas.
+                Work with a global network of clients, agents, and partners across 150+ countries.
               </p>
             </div>
 
             {/* Benefit 5: Competitive Packages */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">Competitive Packages</h3>
               <p className="text-gray-600 leading-relaxed">
-                Market-leading salaries, annual bonuses, and performance incentives aligned with industry standards.
+                Market-leading salaries, annual bonuses, and performance-based incentives.
               </p>
             </div>
 
             {/* Benefit 6: Inclusive Culture */}
             <div className="bg-white rounded-xl p-8 hover:shadow-lg transition-shadow duration-300">
-              <div className="w-14 h-14 bg-[#E8F3F8] rounded-full flex items-center justify-center mb-6">
-                <svg className="w-7 h-7 text-[#3B9FC7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-14 h-14 bg-[#00426D]/8 rounded-full flex items-center justify-center mb-6">
+                <svg className="w-7 h-7 text-[#00426D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-[#00426D] mb-3">Inclusive Culture</h3>
               <p className="text-gray-600 leading-relaxed">
-                Diverse, multicultural workplace that values every team member's unique perspective and background.
+                A diverse, collaborative, and respectful work environment where everyone belongs.
               </p>
             </div>
           </div>
@@ -247,11 +289,11 @@ export default function CareersPage() {
             <p className="text-[#FF7F38] uppercase tracking-wide font-semibold mb-4 text-sm md:text-base">
               Open Positions
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight">
-              Current Opportunities
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#00426D] mb-6 leading-tight tracking-tight">
+              Current Job Openings
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              Explore our available positions and find the right role to advance your career in logistics.
+              We currently have 8 open positions across our Saudi Arabia offices.
             </p>
           </div>
 
@@ -587,7 +629,7 @@ export default function CareersPage() {
       </section>
 
       {/* Don't See the Right Role? CTA Banner */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-[#00426D] via-[#1f2968] to-[#00426D]">
+      <section className="py-16 md:py-20 bg-gradient-to-br from-[#00426D] via-[#1f2968] to-[#00426D] mb-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Icon */}
