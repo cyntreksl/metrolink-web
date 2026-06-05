@@ -279,12 +279,12 @@ export default function ServicesPage() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                 </svg>
-                Express Air Solutions
+                Express Air Cargo
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Air Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                For time-critical shipments, MetroLink offers express and economy air cargo services via King Fahd International Airport. Our air freight solutions ensure your cargo reaches its destination quickly and safely, with full tracking and handling expertise.
+                When speed is critical, our IATA-certified air freight team connects Dammam to the world's major hubs via King Fahd International Airport with express and standard cargo options.
               </p>
 
               {/* Info Badges */}
@@ -293,19 +293,19 @@ export default function ServicesPage() {
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">Global destinations</span>
+                  <span className="text-gray-700 font-medium">200+ global airports</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#00426D]/10 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">2-7 days delivery</span>
+                  <span className="text-gray-700 font-medium">1 –  5 days</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#FF7F38]/20 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
-                  <span className="text-[#FF7F38] font-medium">Certified handling</span>
+                  <span className="text-[#FF7F38] font-medium">IATA certified agents</span>
                 </div>
               </div>
 
@@ -317,7 +317,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Express & economy options</span>
+                  <span className="text-sm text-gray-700">IATA-certified cargo handling</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -325,7 +325,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Temperature-controlled cargo</span>
+                  <span className="text-sm text-gray-700">Next-flight-out and standard services</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -341,7 +341,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Pharmaceutical & perishables</span>
+                  <span className="text-sm text-gray-700">Charter cargo for oversized shipments</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -349,7 +349,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Charter flight arrangements</span>
+                  <span className="text-sm text-gray-700">Airport-to-airport & door-to-door</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -357,7 +357,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Real-time flight tracking</span>
+                  <span className="text-sm text-gray-700">Cold chain and pharma logistics</span>
                 </div>
               </div>
 
@@ -384,12 +384,12 @@ export default function ServicesPage() {
                   <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
                   <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3zM14 7a1 1 0 00-1 1v6.05A2.5 2.5 0 0115.95 16H17a1 1 0 001-1v-5a1 1 0 00-.293-.707l-2-2A1 1 0 0015 7h-1z" />
                 </svg>
-                Road Freight Services
+                GCC Road Freight
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Land Transport</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                MetroLink operates a modern fleet of GPS-tracked vehicles providing Full Truck Load (FTL) and Less than Truck Load (LTL) services across Saudi Arabia and the GCC region. We ensure safe, timely delivery with real-time visibility throughout the journey.
+                Our land transport network covers all of Saudi Arabia and extends across GCC borders with a GPS-tracked fleet, offering FTL, LTL, and dedicated vehicle options.
               </p>
 
               {/* Info Badges */}
@@ -398,20 +398,20 @@ export default function ServicesPage() {
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                   </svg>
-                  <span className="text-gray-700 font-medium">GCC coverage</span>
+                  <span className="text-gray-700 font-medium">All KSA regions & GCC countries</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#00426D]/10 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">24/7 operations</span>
+                  <span className="text-gray-700 font-medium">1 – 5 days</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#FF7F38]/20 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  <span className="text-[#FF7F38] font-medium">GPS tracked fleet</span>
+                  <span className="text-[#FF7F38] font-medium">GPS - tracked nationwide</span>
                 </div>
               </div>
 
@@ -423,7 +423,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">FTL & LTL services</span>
+                  <span className="text-sm text-gray-700">Full Truckload (FTL) & LTL</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -431,7 +431,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Cross-border GCC delivery</span>
+                  <span className="text-sm text-gray-700">GPS-tracked fleet across KSA</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -439,7 +439,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Real-time GPS tracking</span>
+                  <span className="text-sm text-gray-700">Cross-border GCC transport</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -447,7 +447,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Temperature-controlled vehicles</span>
+                  <span className="text-sm text-gray-700">Flatbed and specialized vehicles</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -455,7 +455,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Dedicated fleet management</span>
+                  <span className="text-sm text-gray-700">Refrigerated truck services</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -463,7 +463,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Last-mile delivery solutions</span>
+                  <span className="text-sm text-gray-700">Scheduled and on-demand dispatch</span>
                 </div>
               </div>
 
@@ -521,12 +521,12 @@ export default function ServicesPage() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                 </svg>
-                Customs & Compliance
+                Brokerage & Documentation
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Customs Clearance</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our licensed customs brokerage team handles all import and export documentation, ensuring smooth clearance at all Saudi ports and borders. We navigate complex regulations, calculate duties accurately, and ensure full compliance with Saudi customs requirements.
+                Our licensed customs brokerage team handles all import and export clearance at Saudi ports of entry, ensuring fast, accurate, and compliant processing every time.
               </p>
 
               {/* Info Badges */}
@@ -535,19 +535,19 @@ export default function ServicesPage() {
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">Licensed brokers</span>
+                  <span className="text-gray-700 font-medium">All Saudi ports of entry</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#00426D]/10 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">Fast processing</span>
+                  <span className="text-gray-700 font-medium">24 – 48 hours clearance</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#FF7F38]/20 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
-                  <span className="text-[#FF7F38] font-medium">Full documentation</span>
+                  <span className="text-[#FF7F38] font-medium">24hr clearance guarantee</span>
                 </div>
               </div>
 
@@ -583,7 +583,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Regulatory compliance consulting</span>
+                  <span className="text-sm text-gray-700">Saudi Customs Authority licensed</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -591,7 +591,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Special permits & licenses</span>
+                  <span className="text-sm text-gray-700">Free Zone and bonded warehouse entries</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -599,12 +599,12 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Inspection coordination</span>
+                  <span className="text-sm text-gray-700">Government permits and approvals</span>
                 </div>
               </div>
 
               <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
-                Get Customs Support
+                Get a Customs Clearance Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -625,12 +625,12 @@ export default function ServicesPage() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                 </svg>
-                Storage & Fulfillment
+                Smart Storage Solutions
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Warehousing & Distribution</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our 50,000 sqm state-of-the-art warehouse facility in Dammam offers climate-controlled storage and advanced WMS-powered inventory management. From receiving to pick-pack-ship operations, we handle your goods with precision and care.
+                Our 50,000 sqm modern warehousing and logistics complex in Dammam offers flexible storage, advanced inventory management, and nationwide distribution capabilities.
               </p>
 
               {/* Info Badges */}
@@ -639,19 +639,19 @@ export default function ServicesPage() {
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
-                  <span className="text-gray-700 font-medium">50,000 sqm facility</span>
+                  <span className="text-gray-700 font-medium">Dammam Logistics Zone</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#00426D]/10 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">WMS integration</span>
+                  <span className="text-gray-700 font-medium">Same-day dispatch</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#FF7F38]/20 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-[#FF7F38] font-medium">Climate controlled</span>
+                  <span className="text-[#FF7F38] font-medium">50,000 sqm facility</span>
                 </div>
               </div>
 
@@ -663,7 +663,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Inventory management (WMS)</span>
+                  <span className="text-sm text-gray-700">50,000 sqm covered storage</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -671,7 +671,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Pick, pack & ship services</span>
+                  <span className="text-sm text-gray-700">Ambient, chilled, and frozen zones</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -679,7 +679,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Cross-docking facilities</span>
+                  <span className="text-sm text-gray-700">WMS-powered inventory management</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -687,7 +687,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Value-added services (labeling, kitting)</span>
+                  <span className="text-sm text-gray-700">Pick, pack, and labeling</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -695,7 +695,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">24/7 security & surveillance</span>
+                  <span className="text-sm text-gray-700">Last-mile distribution across KSA</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -703,12 +703,12 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">E-commerce fulfillment</span>
+                  <span className="text-sm text-gray-700">Cross-docking and transshipment</span>
                 </div>
               </div>
 
               <Link href="/contact" className="inline-flex items-center gap-2 bg-[#00426D] hover:bg-[#2d8ab0] text-white px-6 py-3 rounded-2xl font-semibold transition-all">
-                Get Warehousing Solutions
+                Get a Warehousing & Distribution Quote
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -763,12 +763,12 @@ export default function ServicesPage() {
                   <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
                   <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
                 </svg>
-                Heavy & Specialized Cargo
+                Heavy & Oversized Cargo
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Project Cargo</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                MetroLink specializes in handling oversized, heavy-lift, and out-of-gauge cargo for complex industrial projects. Our experienced team manages every aspect from route surveys and permits to specialized equipment and on-site installation support.
+                MetroLink specializes in complex project cargo for the oil & gas, petrochemical, and construction sectors — from detailed planning and route surveys to final on-site delivery.
               </p>
 
               {/* Info Badges */}
@@ -777,19 +777,19 @@ export default function ServicesPage() {
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
                   </svg>
-                  <span className="text-gray-700 font-medium">Heavy-lift experts</span>
+                  <span className="text-gray-700 font-medium"> Global project sites</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#00426D]/10 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                   </svg>
-                  <span className="text-gray-700 font-medium">Full project management</span>
+                  <span className="text-gray-700 font-medium">Project-based</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm bg-[#FF7F38]/20 p-2 rounded-lg">
                   <svg className="w-5 h-5 text-[#FF7F38]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
-                  <span className="text-[#FF7F38] font-medium">Specialized equipment</span>
+                  <span className="text-[#FF7F38] font-medium">Oil & gas specialists</span>
                 </div>
               </div>
 
@@ -801,7 +801,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Heavy-lift & oversized cargo</span>
+                  <span className="text-sm text-gray-700">OOG (Out-of-Gauge) cargo specialists</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -809,7 +809,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Out-of-gauge (OOG) shipments</span>
+                  <span className="text-sm text-gray-700">Heavy lift and crane coordination</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -817,7 +817,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Route surveys & feasibility studies</span>
+                  <span className="text-sm text-gray-700">Route surveys and oversize permits</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -825,7 +825,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Engineering & lashing plans</span>
+                  <span className="text-sm text-gray-700">Modular and industrial equipment</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -833,7 +833,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">Permit coordination & approvals</span>
+                  <span className="text-sm text-gray-700">Rigging and installation support</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full border-2 border-[#FF7F38] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -841,7 +841,7 @@ export default function ServicesPage() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-sm text-gray-700">On-site delivery & rigging support</span>
+                  <span className="text-sm text-gray-700">Dedicated project management team</span>
                 </div>
               </div>
 
