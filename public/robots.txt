@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.metrolink-sa.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+
+# Allow images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Crawl delay
+Crawl-delay: 0

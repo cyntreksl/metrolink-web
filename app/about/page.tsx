@@ -1,5 +1,34 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us - MetroLink Freight Forwarding",
+  description: "Learn about MetroLink's 20+ years of excellence in freight forwarding from Dammam. Connecting Saudi Arabia to the world with trusted logistics solutions since 2004.",
+  keywords: [
+    "about MetroLink",
+    "freight forwarding company history",
+    "Dammam logistics company",
+    "Saudi Arabia freight forwarder",
+    "logistics excellence KSA"
+  ],
+  openGraph: {
+    title: "About MetroLink Freight Forwarding",
+    description: "Over two decades of excellence in freight forwarding from the heart of the Eastern Province — built on trust, integrity, and a passion for logistics.",
+    url: "https://www.metrolink-sa.com/about",
+    images: [
+      {
+        url: "/images/about-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MetroLink Team and Operations",
+      }
+    ],
+  },
+  alternates: {
+    canonical: "https://www.metrolink-sa.com/about"
+  }
+};
 
 export default function AboutPage() {
   return (

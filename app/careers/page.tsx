@@ -1,5 +1,35 @@
 import Link from 'next/link';
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Careers - Join Our Logistics Team | MetroLink",
+  description: "Build your career in Saudi logistics with MetroLink. Join our growing team of 200+ professionals. We offer competitive packages, career growth, and international exposure. View open positions.",
+  keywords: [
+    "logistics careers Saudi Arabia",
+    "freight forwarding jobs",
+    "Dammam jobs",
+    "supply chain careers",
+    "MetroLink careers",
+    "logistics jobs KSA"
+  ],
+  openGraph: {
+    title: "Build Your Career in Saudi Logistics | MetroLink",
+    description: "Join a growing team of 200+ logistics professionals shaping Saudi Arabia's freight forwarding industry.",
+    url: "https://www.metrolink-sa.com/careers",
+    images: [
+      {
+        url: "/images/careers-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Careers at MetroLink",
+      }
+    ],
+  },
+  alternates: {
+    canonical: "https://www.metrolink-sa.com/careers"
+  }
+};
 
 export default function CareersPage() {
   return (

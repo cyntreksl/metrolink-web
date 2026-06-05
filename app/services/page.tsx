@@ -1,5 +1,36 @@
 import Link from 'next/link';
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Freight Forwarding Services - Sea, Air & Land Transport",
+  description: "MetroLink offers comprehensive freight forwarding services: sea freight, air cargo, land transport, customs clearance, warehousing, and project cargo solutions across Saudi Arabia and globally.",
+  keywords: [
+    "sea freight services",
+    "air freight Saudi Arabia",
+    "land transport KSA",
+    "customs clearance Dammam",
+    "warehousing services",
+    "project cargo",
+    "freight forwarding services"
+  ],
+  openGraph: {
+    title: "MetroLink Freight Forwarding Services",
+    description: "End-to-end freight solutions across sea, air, land, and specialized cargo segments from Dammam to the world.",
+    url: "https://www.metrolink-sa.com/services",
+    images: [
+      {
+        url: "/images/services-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MetroLink Freight Services",
+      }
+    ],
+  },
+  alternates: {
+    canonical: "https://www.metrolink-sa.com/services"
+  }
+};
 
 export default function ServicesPage() {
   return (

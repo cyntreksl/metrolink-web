@@ -1,5 +1,34 @@
 import Link from 'next/link';
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "News & Insights - Latest Logistics Updates | MetroLink",
+  description: "Stay informed with MetroLink's latest company news, logistics industry insights, technology updates, and contributions to Saudi Vision 2030.",
+  keywords: [
+    "logistics news Saudi Arabia",
+    "freight forwarding insights",
+    "supply chain updates",
+    "MetroLink news",
+    "Saudi Vision 2030 logistics"
+  ],
+  openGraph: {
+    title: "MetroLink News & Industry Insights",
+    description: "Company news, logistics industry insights, technology updates, and our contribution to Saudi Vision 2030.",
+    url: "https://www.metrolink-sa.com/news",
+    images: [
+      {
+        url: "/images/news-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MetroLink News",
+      }
+    ],
+  },
+  alternates: {
+    canonical: "https://www.metrolink-sa.com/news"
+  }
+};
 
 export default function NewsPage() {
   return (

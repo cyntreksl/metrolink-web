@@ -1,5 +1,34 @@
 import Link from 'next/link';
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us - Get a Freight Quote | MetroLink",
+  description: "Contact MetroLink for freight quotes, shipment tracking, or logistics inquiries. Our Dammam team responds within 2 business hours. Call +966 13 800 1234 or email info@metrolink-sa.com",
+  keywords: [
+    "contact freight forwarder",
+    "freight quote Saudi Arabia",
+    "logistics inquiry Dammam",
+    "MetroLink contact",
+    "freight forwarding quote"
+  ],
+  openGraph: {
+    title: "Contact MetroLink Freight Forwarding",
+    description: "Request a freight quote, track a shipment, or speak directly with our logistics experts. Our Dammam team responds within 2 business hours.",
+    url: "https://www.metrolink-sa.com/contact",
+    images: [
+      {
+        url: "/images/contact-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact MetroLink",
+      }
+    ],
+  },
+  alternates: {
+    canonical: "https://www.metrolink-sa.com/contact"
+  }
+};
 
 export default function ContactPage() {
   return (
