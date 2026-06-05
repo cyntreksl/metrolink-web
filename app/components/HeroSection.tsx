@@ -8,11 +8,12 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A4F7E]/95 via-[#0A4F7E]/85 to-[#0A4F7E]/10 z-10" />
         {/* Placeholder for background image - replace with actual shipping port image */}
-        <div className="w-full h-full bg-[#0A4F7E]">
+        <div className="relative w-full h-full bg-[#0A4F7E]">
           <Image
               src="/images/home-hero.jpg"
               alt="MetroLink cargo operations"
               fill
+              sizes="100vw"
               className="object-cover"
               priority
           />

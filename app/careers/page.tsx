@@ -173,6 +173,7 @@ export default function CareersPage() {
                     src="/images/core-about.jpg"
                     alt="MetroLink cargo operations"
                     fill
+                    sizes="100vw"
                     className="object-cover"
                     priority
                 />

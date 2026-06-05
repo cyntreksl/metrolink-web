@@ -22,6 +22,7 @@ export default function AboutSection() {
                   src="/images/about-home.jpg"
                   alt="MetroLink cargo operations"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   priority
               />
               <div className="aspect-[7/5] bg-gradient-to-br from-blue-900 to-blue-700">

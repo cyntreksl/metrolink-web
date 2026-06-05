@@ -16,11 +16,12 @@ export default function PartnershipsSection() {
           {/* Left Column - Image */}
           <div className="order-2 lg:order-1">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <div className="aspect-[6/3] bg-gradient-to-br from-blue-100 to-orange-50">
+              <div className="relative aspect-[6/3] bg-gradient-to-br from-blue-100 to-orange-50">
                 <Image
                     src="/images/partnership-home.jpg"
                     alt="MetroLink cargo operations"
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     priority
                 />
                 <div className="w-full h-full flex items-center justify-center">

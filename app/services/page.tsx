@@ -60,7 +60,7 @@ export default function ServicesPage() {
             <div className="bg-white rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
               <div className="w-16 h-16 bg-[#E8F3F8] rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g clip-path="url(#clip0_1_36)">
+                  <g clipPath="url(#clip0_1_36)">
                     <path d="M11 9.33997V12.8334" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M11 1.83337V4.58337" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M17.4167 11.9167V6.41671C17.4167 5.93048 17.2235 5.46416 16.8797 5.12034C16.5359 4.77653 16.0696 4.58337 15.5833 4.58337H6.41667C5.93044 4.58337 5.46412 4.77653 5.12031 5.12034C4.77649 5.46416 4.58334 5.93048 4.58334 6.41671V11.9167" stroke="#4A7C9C" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
@@ -236,11 +236,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
                   <Image
                       src="/images/sea-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />
@@ -259,11 +260,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center">
                   <Image
                       src="/images/air-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />
@@ -478,11 +480,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
                   <Image
                       src="/images/land-transport.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />
@@ -501,11 +504,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center">
                   <Image
                       src="/images/customs-clearance.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />
@@ -718,11 +722,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1 lg:order-2">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
                   <Image
                       src="/images/warehouse.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />
@@ -741,11 +746,12 @@ export default function ServicesPage() {
             {/* Image */}
             <div className="order-1">
               <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <div className="w-full h-full bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
+                <div className="relative w-full h-full bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
                   <Image
                       src="/images/project-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="100vw"
                       className="object-cover"
                       priority
                   />

@@ -9,11 +9,12 @@ export default function AboutPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          <div className="w-full h-full opacity-60 bg-gradient-to-br from-blue-900 to-blue-700">
+          <div className="relative w-full h-full opacity-60 bg-gradient-to-br from-blue-900 to-blue-700">
             <Image
               src="/images/home-hero.jpg"
               alt="MetroLink cargo operations"
               fill
+              sizes="100vw"
               className="object-cover"
               priority
             />
@@ -279,11 +280,12 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <div className="aspect-[8/5] bg-gradient-to-br from-blue-100 to-orange-50">
-                  <div className="w-full h-full flex items-center justify-center">
+                  <div className="relative w-full h-full flex items-center justify-center">
                     <Image
                       src="/images/about-home.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       priority
                     />
                   </div>
@@ -658,6 +660,7 @@ export default function AboutPage() {
                       src="/images/core-about.jpg"
                       alt="MetroLink cargo operations"
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                     />

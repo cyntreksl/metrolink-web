@@ -5,7 +5,7 @@ const services = [
     id: 'sea-freight',
     icon: (
         <svg className="w-8 h-8" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_1_36)">
+          <g clipPath="url(#clip0_1_36)">
             <path d="M11 9.33997V12.8334" stroke="#155DFC" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M11 1.83337V4.58337" stroke="#155DFC" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M17.4167 11.9167V6.41671C17.4167 5.93048 17.2235 5.46416 16.8797 5.12034C16.5359 4.77653 16.0696 4.58337 15.5833 4.58337H6.41667C5.93044 4.58337 5.46412 4.77653 5.12031 5.12034C4.77649 5.46416 4.58334 5.93048 4.58334 6.41671V11.9167" stroke="#155DFC" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round"/>
