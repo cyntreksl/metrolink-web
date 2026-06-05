@@ -168,12 +168,12 @@ export default function CareersPage() {
 
             {/* Right Column - Image */}
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center">
+              <div className="relative w-full h-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center">
                 <Image
                     src="/images/core-about.jpg"
                     alt="MetroLink cargo operations"
                     fill
-                    sizes="100vw"
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                     priority
                 />

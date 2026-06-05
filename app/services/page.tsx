@@ -241,7 +241,7 @@ export default function ServicesPage() {
                       src="/images/sea-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />
@@ -265,7 +265,7 @@ export default function ServicesPage() {
                       src="/images/air-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />
@@ -485,7 +485,7 @@ export default function ServicesPage() {
                       src="/images/land-transport.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />
@@ -509,7 +509,7 @@ export default function ServicesPage() {
                       src="/images/customs-clearance.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />
@@ -727,7 +727,7 @@ export default function ServicesPage() {
                       src="/images/warehouse.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />
@@ -751,7 +751,7 @@ export default function ServicesPage() {
                       src="/images/project-cargo.jpg"
                       alt="MetroLink cargo operations"
                       fill
-                      sizes="100vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover"
                       priority
                   />

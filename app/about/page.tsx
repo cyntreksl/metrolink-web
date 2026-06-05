@@ -655,7 +655,7 @@ export default function AboutPage() {
               {/* Team Image */}
               <div className="rounded-3xl overflow-hidden shadow-lg">
                 <div className="aspect-[4/3] bg-gradient-to-br from-orange-50 to-blue-50">
-                  <div className="w-full h-full relative">
+                  <div className="relative w-full h-full relative">
                     <Image
                       src="/images/core-about.jpg"
                       alt="MetroLink cargo operations"
