@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function NewsPage() {
   return (
@@ -8,7 +9,13 @@ export default function NewsPage() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#0A4F7E]/80 z-10" />
-          {/* Placeholder for background image */}
+          <Image
+              src="/images/news-hero.jpg"
+              alt="MetroLink cargo operations"
+              fill
+              className="object-cover"
+              priority
+          />
           <div className="w-full h-full opacity-30 bg-gradient-to-br from-blue-900 to-blue-700" />
         </div>
 
@@ -402,7 +409,7 @@ export default function NewsPage() {
       </section>
 
       {/* Newsletter Banner Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-r from-[#0A4F7E] via-[#0d5a8f] to-[#0A4F7E]">
+      <section className="py-16 md:py-20 bg-gradient-to-r from-[#0A4F7E] via-[#0d5a8f] to-[#0A4F7E] mb-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Heading */}
