@@ -23,9 +23,6 @@ const nextConfig: NextConfig = {
   // Enable poweredByHeader removal
   poweredByHeader: false,
 
-  // Optimize fonts
-  optimizeFonts: true,
-
   // Enable React strict mode
   reactStrictMode: true,
 

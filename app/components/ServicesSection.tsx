@@ -84,7 +84,7 @@ const services = [
     link: '/services',
     color: 'red',
   },
-];
+] as const;
 
 const colorClasses = {
   blue: 'text-blue-600 bg-blue-50',
@@ -92,7 +92,7 @@ const colorClasses = {
   purple: 'text-purple-600 bg-purple-50',
   orange: 'text-orange-600 bg-orange-50',
   red: 'text-red-600 bg-red-50',
-};
+} as const;
 
 export default function ServicesSection() {
   return (
