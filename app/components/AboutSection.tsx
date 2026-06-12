@@ -57,12 +57,16 @@ export default function AboutSection() {
             {/* Description Paragraphs */}
             <div className="space-y-4 mb-8 text-[#6A7282] leading-relaxed">
               <p className="text-base md:text-lg">
-                Founded in 2004 in Dammam, MetroLink has grown into one of Saudi Arabia's most trusted freight and logistics companies.
-                Strategically located near King Abdul Aziz Port, we serve the Kingdom's most demanding industries — from oil & gas and petrochemicals to retail and healthcare.
+                Metrolink Logistics is part of the Laksiri Group of Companies, an international business group
+                established in 1982 with decades of experience in logistics, transportation, and international
+                trade. Through the strength of our parent company and our global partnerships, Metrolink
+                Logistics has developed a strong network with more than 30 destination branch locations
+                worldwide, ensuring reliable cargo movement across global markets.
               </p>
               <p className="text-base md:text-lg">
-                Aligned with Saudi Vision 2030, we are investing in technology, talent, and infrastructure to build a smarter,
-                more sustainable logistics network for the Kingdom's future.
+                Today, Metrolink Logistics operates strategically located branches in Riyadh, Jeddah, Dammam,
+                and Al Qassim, allowing us to efficiently serve customers across the Kingdom and provide
+                seamless logistics solutions.
               </p>
             </div>
 
@@ -102,7 +106,7 @@ export default function AboutSection() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <div className="text-3xl font-bold text-[#00426D]">150+</div>
+                  <div className="text-3xl font-bold text-[#00426D]">30+</div>
                 </div>
                 <div className="text-sm md:text-base text-gray-600">Destinations</div>
               </div>

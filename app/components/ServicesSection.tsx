@@ -20,7 +20,7 @@ const services = [
         </svg>
     ),
     title: 'Sea Freight',
-    description: 'FCL & LCL shipments through King Abdul Aziz Port, connecting Dammam to 150+ global ports.',
+    description: 'Metrolink Logistics provides reliable international sea freight services for both import and export shipments.',
     link: '/services',
     color: 'blue',
   },
@@ -32,7 +32,7 @@ const services = [
         </svg>
     ),
     title: 'Air Freight',
-    description: 'Express and standard air cargo via King Fahd International Airport for time-sensitive shipments.',
+    description: 'For urgent cargo shipments, we offer fast and secure air freight services connecting major international airports.',
     link: '/services',
     color: 'blue',
   },
@@ -44,7 +44,7 @@ const services = [
       </svg>
     ),
     title: 'Land Transport',
-    description: 'GPS-tracked road freight across Saudi Arabia and the GCC with FTL and LTL options.',
+    description: 'Our land transportation services provide reliable cargo movement across Saudi Arabia and neighboring GCC countries.',
     link: '/services/land-transport',
     color: 'green',
   },
@@ -67,8 +67,8 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
       </svg>
     ),
-    title: 'Warehousing',
-    description: '50,000 sqm modern logistics complex in Dammam with WMS-powered inventory management.',
+    title: 'Local Transportation',
+    description: 'Metrolink Logistics offers local transportation services within Saudi Arabia.',
     link: '/services',
     color: 'orange',
   },
@@ -79,8 +79,8 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
       </svg>
     ),
-    title: 'Project Cargo',
-    description: 'Specialized handling of heavy-lift, oversized, and industrial cargo for major projects.',
+    title: 'Personal Effects Cargo Service to Sri Lanka',
+    description: 'We provide specialized personal effects cargo services from Saudi Arabia to Sri Lanka.',
     link: '/services',
     color: 'red',
   },

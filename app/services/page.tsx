@@ -178,7 +178,9 @@ export default function ServicesPage() {
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Sea Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                MetroLink offers comprehensive sea freight services through King Abdul Aziz Port in Dammam — one of the largest ports in the Middle East. We handle FCL and LCL shipments connecting you to major global trade lanes.
+                Metrolink Logistics provides reliable international sea freight services for both import and
+                export shipments. Through our global shipping partners, we handle Full Container Load (FCL)
+                and Less than Container Load (LCL) shipments to destinations worldwide.
               </p>
 
               {/* Info Badges */}
@@ -317,7 +319,8 @@ export default function ServicesPage() {
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Air Freight</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                When speed is critical, our IATA-certified air freight team connects Dammam to the world's major hubs via King Fahd International Airport with express and standard cargo options.
+                For urgent cargo shipments, we offer fast and secure air freight services connecting major
+                international airports. Our air cargo solutions ensure quick delivery and efficient cargo handling.
               </p>
 
               {/* Info Badges */}
@@ -422,7 +425,8 @@ export default function ServicesPage() {
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Land Transport</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our land transport network covers all of Saudi Arabia and extends across GCC borders with a GPS-tracked fleet, offering FTL, LTL, and dedicated vehicle options.
+                Our land transportation services provide reliable cargo movement across Saudi Arabia and
+                neighboring GCC countries. We manage both local distribution and cross-border transportation.
               </p>
 
               {/* Info Badges */}
@@ -561,7 +565,8 @@ export default function ServicesPage() {
 
               <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Customs Clearance</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our licensed customs brokerage team handles all import and export clearance at Saudi ports of entry, ensuring fast, accurate, and compliant processing every time.
+                Our experienced team provides professional customs clearance services, ensuring that all
+                shipments comply with Saudi customs regulations and are processed quickly and efficiently.
               </p>
 
               {/* Info Badges */}
@@ -663,9 +668,10 @@ export default function ServicesPage() {
                 Smart Storage Solutions
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Warehousing & Distribution</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Local Transportation</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our 50,000 sqm modern warehousing and logistics complex in Dammam offers flexible storage, advanced inventory management, and nationwide distribution capabilities.
+                Metrolink Logistics offers local transportation services within Saudi Arabia, including cargo
+                pickup, warehouse delivery, and distribution to customer locations.
               </p>
 
               {/* Info Badges */}
@@ -803,9 +809,10 @@ export default function ServicesPage() {
                 Heavy & Oversized Cargo
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Project Cargo</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#00426D] mb-6 tracking-tight">Personal Effects Cargo Service to Sri Lanka</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                MetroLink specializes in complex project cargo for the oil & gas, petrochemical, and construction sectors — from detailed planning and route surveys to final on-site delivery.
+                We provide specialized personal effects cargo services from Saudi Arabia to Sri Lanka, offering
+                safe, reliable, and affordable shipping solutions for household goods and personal belongings.
               </p>
 
               {/* Info Badges */}

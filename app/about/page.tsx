@@ -98,7 +98,7 @@ export default function AboutPage() {
       {/* Story Section */}
       <section className="py-16 md:py-20 lg:py-24 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             {/* Left Column - Content */}
             <div>
               {/* Eyebrow */}
@@ -114,194 +114,40 @@ export default function AboutPage() {
               {/* Paragraphs */}
               <div className="space-y-4 mb-8 text-gray-600 leading-relaxed">
                 <p className="text-base md:text-lg">
-                  MetroLink Freight Forwarding was founded in 2004 in Dammam — a
-                  city that sits at the crossroads of Saudi Arabia's most vital
-                  industrial and commercial corridors. From day one, our mission
-                  was clear: to be the most dependable logistics partner for
-                  businesses operating in and from the Kingdom.
+                  Metrolink Logistics Company is a professional freight forwarding and logistics solutions provider
+                  operating in the Kingdom of Saudi Arabia. The company was officially established in January
+                  2025 as a 100% foreign-owned company, bringing together decades of industry experience and
+                  a strong international logistics network.
                 </p>
                 <p className="text-base md:text-lg">
-                  Strategically located near King Abdul Aziz Port — the largest
-                  in the Middle East — MetroLink has grown from a 15-person team
-                  into a 200+ strong organization spanning three major Saudi
-                  cities, operating across every mode of freight: sea, air,
-                  land, and project cargo.
+                  Although the Metrolink Logistics brand was launched in 2025, our operations in Saudi Arabia
+                  have a much longer history. For more than 30 years, our freight forwarding services have been
+                  operating successfully across the Kingdom through several branch offices under different
+                  business names. In order to strengthen our brand identity and deliver a unified service
+                  experience, all these branches are now operating under a single name — Metrolink Logistics
+                  Company.
                 </p>
-              </div>
 
-              {/* Key Points with Checkmarks */}
-              <div className="space-y-3 mb-10">
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <span className="text-gray-700 text-base md:text-lg">
-                    Proximity to King Abdul Aziz Port and King Fahd Airport
-                  </span>
-                </div>
+                <p className="text-base md:text-lg">
+                  Today, Metrolink Logistics operates strategically located branches in Riyadh, Jeddah, Dammam,
+                  and Al Qassim, allowing us to efficiently serve customers across the Kingdom and provide
+                  seamless logistics solutions.
+                </p>
 
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <span className="text-gray-700 text-base md:text-lg">
-                    Serving oil & gas, petrochemical, retail, and healthcare
-                    sectors
-                  </span>
-                </div>
+                <p className="text-base md:text-lg">
+                  Metrolink Logistics is part of the Laksiri Group of Companies, an international business group
+                  established in 1982 with decades of experience in logistics, transportation, and international
+                  trade. Through the strength of our parent company and our global partnerships, Metrolink
+                  Logistics has developed a strong network with more than 30 destination branch locations
+                  worldwide, ensuring reliable cargo movement across global markets.
+                </p>
 
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <span className="text-gray-700 text-base md:text-lg">
-                    Aligned with Saudi Vision 2030 logistics transformation
-                  </span>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                  <span className="text-gray-700 text-base md:text-lg">
-                    Fully digital client portal with real-time cargo tracking
-                  </span>
-                </div>
-              </div>
-
-              {/* Stats Row */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
-                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-                      />
-                    </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
-                      20+
-                    </div>
-                  </div>
-                  <div className="text-sm text-gray-600">Years in Business</div>
-                </div>
-
-                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
-                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                      />
-                    </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
-                      3
-                    </div>
-                  </div>
-                  <div className="text-sm text-gray-600">
-                    Offices Nationwide
-                  </div>
-                </div>
-
-                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
-                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                      />
-                    </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
-                      200+
-                    </div>
-                  </div>
-                  <div className="text-sm text-gray-600">Team Members</div>
-                </div>
-
-                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
-                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
-                    <svg
-                      className="w-6 h-6 text-[#FF7F38]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
-                      150+
-                    </div>
-                  </div>
-                  <div className="text-sm text-gray-600">
-                    Global Destinations
-                  </div>
-                </div>
+                <p className="text-base md:text-lg">
+                  Our company is committed to providing reliable, efficient, and cost-effective logistics solutions to
+                  businesses and individuals. With an experienced team, global connections, and a strong service
+                  network, Metrolink Logistics ensures that every shipment is handled with professionalism and
+                  care.
+                </p>
               </div>
             </div>
 
@@ -322,10 +168,185 @@ export default function AboutPage() {
               </div>
 
               {/* Floating Badge - Warehouse Size */}
-              <div className="absolute -bottom-6 -right-6 bg-[#FF7F38] text-white px-8 py-6 rounded-3xl shadow-xl">
+              <div className="absolute -top-6 -right-6 bg-[#FF7F38] text-white px-8 py-6 rounded-3xl shadow-xl">
                 <div className="text-3xl font-bold mb-1">50K</div>
                 <div className="text-sm md:text-base opacity-90">
                   sqm Warehouse
+                </div>
+              </div>
+
+              {/* Key Points with Checkmarks */}
+              <div className="space-y-3 my-20">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                    >
+                      <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-base md:text-lg">
+                    Proximity to King Abdul Aziz Port and King Fahd Airport
+                  </span>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                    >
+                      <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-base md:text-lg">
+                    Serving oil & gas, petrochemical, retail, and healthcare
+                    sectors
+                  </span>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                    >
+                      <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-base md:text-lg">
+                    Aligned with Saudi Vision 2030 logistics transformation
+                  </span>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 mt-0.5">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                    >
+                      <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700 text-base md:text-lg">
+                    Fully digital client portal with real-time cargo tracking
+                  </span>
+                </div>
+              </div>
+
+              {/* Stats Row */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                      <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                      />
+                    </svg>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
+                      20+
+                    </div>
+                  </div>
+                  <div className="text-sm text-gray-600">Years in Business</div>
+                </div>
+
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                      <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                      />
+                    </svg>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
+                      3
+                    </div>
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    Offices Nationwide
+                  </div>
+                </div>
+
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                      <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
+                      200+
+                    </div>
+                  </div>
+                  <div className="text-sm text-gray-600">Team Members</div>
+                </div>
+
+                <div className="bg-gray-100 p-5 rounded-2xl text-center md:text-left">
+                  <div className="items-center justify-center md:justify-start gap-2 mb-2">
+                    <svg
+                        className="w-6 h-6 text-[#FF7F38]"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                    >
+                      <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <div className="text-3xl md:text-4xl font-bold text-[#00426D]">
+                      30+
+                    </div>
+                  </div>
+                  <div className="text-sm text-gray-600">
+                    Global Destinations
+                  </div>
                 </div>
               </div>
             </div>
@@ -383,10 +404,10 @@ export default function AboutPage() {
 
                 {/* Description */}
                 <p className="text-white/90 leading-relaxed mb-8 text-base md:text-lg">
-                  To provide innovative, reliable, and cost-effective freight
-                  forwarding solutions that empower Saudi businesses to compete,
-                  grow, and succeed in global markets — while delivering
-                  exceptional service experiences that exceed expectations.
+                  Our mission is to provide reliable, efficient, and cost-effective logistics and freight forwarding
+                  solutions that help businesses and individuals move their cargo safely across borders. We aim to
+                  build long-term partnerships with our clients by delivering high-quality service, transparency,
+                  and operational excellence.
                 </p>
 
                 {/* Key Points */}
@@ -404,7 +425,7 @@ export default function AboutPage() {
                       />
                     </svg>
                     <span className="text-sm md:text-base">
-                      Client-First Approach
+                      Reliable
                     </span>
                   </div>
 
@@ -421,7 +442,7 @@ export default function AboutPage() {
                       />
                     </svg>
                     <span className="text-sm md:text-base">
-                      Operational Excellence
+                       Freight forwarding solutions
                     </span>
                   </div>
 
@@ -438,7 +459,7 @@ export default function AboutPage() {
                       />
                     </svg>
                     <span className="text-sm md:text-base">
-                      Competitive Pricing
+                      Cost-effective logistics
                     </span>
                   </div>
 
@@ -455,7 +476,7 @@ export default function AboutPage() {
                       />
                     </svg>
                     <span className="text-sm md:text-base">
-                      On-Time Delivery
+                      Efficient
                     </span>
                   </div>
                 </div>
@@ -499,10 +520,8 @@ export default function AboutPage() {
 
               {/* Description */}
               <p className="text-gray-600 leading-relaxed mb-8 text-base md:text-lg">
-                To be Saudi Arabia's most trusted and technologically advanced
-                freight forwarding company — a key driver of trade growth and a
-                proud contributor to the Kingdom's Vision 2030 logistics and
-                supply chain transformation journey.
+                Our vision is to become a leading logistics and freight forwarding company in Saudi Arabia and
+                the global market, recognized for our reliability, strong international network, and customer focused logistics solutions.
               </p>
 
               {/* Key Points */}
